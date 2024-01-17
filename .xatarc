@@ -1,5 +1,5 @@
 {
-  "databaseURL": "https://AKT-s-workspace-3dkrsb.us-east-1.xata.sh/db/vak",
+  "databaseURL": "",
   "codegen": {
     "output": "src/xata.ts"
   }
