@@ -20,8 +20,7 @@ import { QForm } from "../query-form";
 import { useState } from "react";
 
 export const NavContact = () => {
-
-    const [show, setShow] = useState<boolean>(false);
+  const [show, setShow] = useState<boolean>(false);
 
   const handleOnClick = () => {
     console.log("false");
@@ -30,15 +29,20 @@ export const NavContact = () => {
     // setShow(true)
   };
 
-
   return (
-    <div className=" flex justify-center items-center">
+    <div className={cn(" flex justify-start mt-2 mb-2 lg:mt-4 items-center")}>
       <Button
         variant="blank"
-        className=" bg-transparent"
+        className=" bg-transparent "
         onClick={() => setShow(true)}
       >
-        <Image src="/contact-us.png" className={cn("w-[35px] lg:w-10 ")} alt="conatact-us" width={60} height={60} />
+        <Image
+          src="/contact-us.png"
+          className={cn("w-[40px] lg:w-10 ")}
+          alt="conatact-us"
+          width={60}
+          height={60}
+        />
         <span className={cn("hidden lg:block")}>Contact Us</span>
       </Button>
       {show && (

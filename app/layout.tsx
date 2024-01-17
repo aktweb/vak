@@ -4,7 +4,7 @@ import './globals.css'
 import { NavBar } from './_components/navbar'
 import { Footer } from './_components/footer'
 import { QForm } from './_components/query-form'
-
+import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -20,11 +20,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NavBar/>
+        <NavBar />
         {children}
-        <QForm/>
-        <Footer/>
-        </body>
+        <QForm />
+        <Footer />
+        <Toaster />
+      </body>
     </html>
-  )
+  );
 }

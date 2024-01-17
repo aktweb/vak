@@ -1,9 +1,13 @@
 "use client";
 import { Button } from "@/components/ui/button";
+import { useToast } from "@/components/ui/use-toast";
 import { revalidatePath } from "next/cache";
 import { useRouter } from "next/navigation";
 
+
 const LoginPage = () => {
+    const { toast } = useToast();
+
   const router = useRouter();
   async function loginAuth(formdata: FormData) {
     if (
@@ -12,7 +16,11 @@ const LoginPage = () => {
     ) {
       router.push("/dashboard");
     } else {
-      router.push("/");
+      toast({
+        title: "Incorrect Password",
+        description: "This Page is only for admin",
+      });
+      router.push("/login");
     }
   }
 
@@ -34,7 +42,7 @@ const LoginPage = () => {
             />
           </div>
           <div className="m-3 space-x-3">
-            <label htmlFor="password">Enter Password :</label>
+            <label htmlFor="password">Enter Password : </label>
             <input
               type="password"
               name="password"
@@ -42,12 +50,14 @@ const LoginPage = () => {
               className="w-1/2 border-2 rounded-sm h-8 text-lg"
             />
           </div>
-          <button
-            type="submit"
-            className="bg-[#fe9030] rounded-md p-1 cursor-pointer w-1/4 ms-4"
-          >
-            Login
-          </button>
+          <div className="flex justify-center items-center">
+            <button
+              type="submit"
+              className="bg-[#fe9030] rounded-md p-1 justify-center cursor-pointer w-1/4 ms-4"
+            >
+              Login
+            </button>
+          </div>
         </form>
       </div>
       <span></span>

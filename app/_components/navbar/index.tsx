@@ -24,10 +24,12 @@ export const NavBar =async () => {
   return (
     <div className="flex bg-[#f48423] p-2 justify-between">
       <Logo />
-      <NavMenu products={products} />
-      {/* <Search /> */}
-      <NavContact />
-      <LoginButton/>
+      <div className="flex">
+        <NavMenu products={products} />
+        {/* <Search /> */}
+        <NavContact />
+        <LoginButton />
+      </div>
     </div>
   );
 };

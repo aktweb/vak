@@ -23,8 +23,8 @@ const AboutUs = () => {
       >
         <img className={cn(" w-full lg:w-2/3 ")} src="about-us.jpg" alt="Abput Us" />
         {isHovered && (
-          <div className={cn("absolute top-[200px] lg:top-1/2 lg:left-1/2 shadow-black  shadow-2xl")}>
-            <Button className={cn("bg-[#fe9030] lg:p-6 lg:text-xl hover:bg-[#c56a1a] ")} onClick={handleClick}>About Us</Button>
+          <div className={cn("absolute top-[200px] lg:top-1/2 lg:justify-center lg:items-center    shadow-black  shadow-2xl")}>
+            <Button className={cn("bg-[#fe9030] border-blue-500 lg:p-6 lg:text-xl hover:bg-[#c56a1a] ")} onClick={handleClick}>About Us</Button>
           </div>
         )}{" "}
       </div>

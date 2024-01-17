@@ -23,6 +23,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Dispatch, SetStateAction } from "react";
 import { QueryPost } from "./submit";
 import { revalidatePath } from "next/cache";
+import { useToast } from "@/components/ui/use-toast";
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -42,7 +43,8 @@ interface QFromProps {
 
 export function QForm({ style, setShow }: QFromProps) {
   console.log("Qform rendered", style);
-  // ...
+ const { toast } = useToast();
+
   // 1. Define your form.
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -55,8 +57,11 @@ export function QForm({ style, setShow }: QFromProps) {
   async function onSubmit(values: z.infer<typeof formSchema>) {
     // Do something with the form values.
     console.log("onSub");
-    
     QueryPost(values);
+    toast({
+      title: "Submitted Successfully",
+      description: "We will get back to you shortly",
+    });
     // ✅ This will be type-safe and validated.
     // console.log(values);
     if (style) {
@@ -64,7 +69,7 @@ export function QForm({ style, setShow }: QFromProps) {
     }
   }
 
-  const ref = useRef<HTMLFormElement>(null)
+  const ref = useRef<HTMLFormElement>(null);
 
   return (
     <div
@@ -78,7 +83,7 @@ export function QForm({ style, setShow }: QFromProps) {
           onSubmit={form.handleSubmit(onSubmit)}
           className={cn("lg:w-[800px]")}
         >
-          <h1>Tell Us What Are You Looking For ?</h1>
+          <h1>Tell Us What You Are Looking For ?</h1>
 
           <FormField
             control={form.control}

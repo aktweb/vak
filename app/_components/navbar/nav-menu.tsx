@@ -60,12 +60,12 @@ export  function NavMenu({products}:{products:ProductType[]}) {
     <div className={cn(" m-1 mt-4 lg:flex justify-center")}>
       <NavigationMenu>
         <NavigationMenuList>
-          <NavigationMenuItem>
-            {/* <Link href="/" legacyBehavior passHref>
+          <NavigationMenuItem className={cn("hidden lg:block")}>
+            <Link href="/" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Home
               </NavigationMenuLink>
-            </Link> */}
+            </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuTrigger>Products</NavigationMenuTrigger>
@@ -80,6 +80,14 @@ export  function NavMenu({products}:{products:ProductType[]}) {
                 ))}
               </ul>
             </NavigationMenuContent>
+          </NavigationMenuItem>
+
+          <NavigationMenuItem>
+            <Link href="/about-us" legacyBehavior passHref>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                About Us
+              </NavigationMenuLink>
+            </Link>
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>

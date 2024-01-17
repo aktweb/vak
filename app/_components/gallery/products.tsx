@@ -25,7 +25,7 @@ export function GalleryComponent({
 }) {
   const router = useRouter();
   function handleClick(product: ProductType) {
-    router.push(`products/${product.id}`);
+    router.push(`/products/${product.id}`);
   }
   return (
     <>
@@ -46,7 +46,7 @@ export function GalleryComponent({
             <CarouselItem key={product.id} className="basis-1/2 lg:basis-1/4">
               <div className="p-1">
                 <Card
-                  className={cn("lg:h-60 lg:w-60")}
+                  className={cn("lg:h-80 lg:w-80")}
                   onClick={() => handleClick(product)}
                 >
                   <CardContent
