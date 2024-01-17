@@ -1,0 +1,16 @@
+{
+  "id": "mig_cmj6643vv9jpetvg3fog",
+  "parentID": "mig_cmj661jqchh4jeq4uh40",
+  "checksum": "1:2381a27bdf718d2f916e7cb6bce87189e30534e93c1ac34691f67e82362c5def",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "desc",
+          "type": "string"
+        },
+        "table": "products"
+      }
+    }
+  ]
+}

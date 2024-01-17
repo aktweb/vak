@@ -1,0 +1,14 @@
+{
+  "id": "mig_cmj661jqchh4jeq4uh40",
+  "parentID": "mig_cmj65urvv9jpetvg3fng",
+  "checksum": "1:1c59e531eb02fcb11a90f75e309b70123f9e9dad89662a035d77b5bf1344cc20",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "title",
+        "oldName": "name",
+        "table": "products"
+      }
+    }
+  ]
+}

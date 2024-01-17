@@ -1,0 +1,16 @@
+{
+  "id": "mig_cmj4qdomj350nbjo8k90",
+  "parentID": "mig_cmj4q83qchh4jeq4ugd0",
+  "checksum": "1:c2dc7b640410a666e8a721c2962872b26e9f164f7ebc9c5937a64bba2f39ba93",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "desc",
+          "type": "string"
+        },
+        "table": "records"
+      }
+    }
+  ]
+}
