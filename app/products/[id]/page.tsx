@@ -26,7 +26,7 @@ async function fetchDetails(params: string): Promise<ProductType | any> {
   return products;
 }
 
-export const ProductPage = async ({ params }: { params: any }) => {
+const ProductPage = async ({ params }: { params: any }) => {
   console.log({ params } + "\nParams");
 
   const data = await fetchDetails(params);
