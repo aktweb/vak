@@ -13,9 +13,6 @@ export type ProductType = {
 async function productsList():Promise<ProductType[] | any> {
   const xataClient = getXataClient();
   const products = await xataClient.db.products.getMany();
-
-  console.log("products");
-  console.log(products);
   return products;
 }
 

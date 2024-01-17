@@ -18,7 +18,6 @@ const formSchema = z.object({
 
 export async function QueryPost(values: z.infer<typeof formSchema> | any) {
   "use server";
-  console.log(values);
 
   const xataClient = getXataClient();
   if (values.desc) xataClient.db.records.create(values);

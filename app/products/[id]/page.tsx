@@ -17,12 +17,9 @@ import ProductDetailsPage from "./product-details";
 // }
 
 async function fetchDetails(params: string): Promise<ProductType | any> {
-  console.log({ params });
   const xataClient = getXataClient();
   const products = await xataClient.db.products.read(params);
 
-  console.log("products");
-  console.log(products);
   return products;
 }
 
