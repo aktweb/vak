@@ -19,11 +19,7 @@ interface ProductDetailsProps {
   image: string;
 }
 
-export const ProductDetailsPage = ({
-  product,
-}: {
-  product: ProductType | any;
-}) => {
+const ProductDetailsPage = ({ product }: { product: ProductType | any }) => {
   const [show, setShow] = useState<boolean>(false);
 
   //   const id = params.index;
