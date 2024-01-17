@@ -19,12 +19,16 @@ interface ProductDetailsProps {
   image: string;
 }
 
-export const ProductDetailsPage = ({ product }: { product: ProductType }) => {
+export const ProductDetailsPage = ({
+  product,
+}: {
+  product: ProductType | any;
+}) => {
   const [show, setShow] = useState<boolean>(false);
 
   //   const id = params.index;
   //   const product = product;
-  console.log(product +  "product");
+  console.log(product + "product");
 
   const descriptionLines = product?.desc.split("\\n");
 
@@ -53,7 +57,7 @@ export const ProductDetailsPage = ({ product }: { product: ProductType }) => {
       {/* <div className=" flex justify-center "> */}
       {/* <p className=" flex justify-center">{product.name}</p> */}
       <ul className="m-4">
-        {descriptionLines?.map((line, index) => (
+        {descriptionLines?.map((line: any, index: any) => (
           <li
             key={index}
             className="  flex justify-center items-start mt-[10px]  "
