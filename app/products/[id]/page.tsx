@@ -1,7 +1,7 @@
 "use server ";
 import { ProductType } from "@/app/_components/gallery";
 import { getXataClient } from "@/src/xata";
-import ProductDetailsPage from "./product-details";
+import ProductDetailsPage from "../product-details";
 
 // interface ProductPageProps {
 //   params: {

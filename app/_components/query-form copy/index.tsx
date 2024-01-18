@@ -35,13 +35,9 @@ const formSchema = z.object({
   ,desc: z.string(),
 });
 
-interface QFromProps {
-  style: string;
-  setShow: Dispatch<SetStateAction<boolean>>;
-}
 
-export function QForm({ style, setShow }: QFromProps) {
-  console.log("Qform rendered", style);
+
+export function QFormMain() {
  const { toast } = useToast();
 
   // 1. Define your form.
@@ -63,20 +59,15 @@ export function QForm({ style, setShow }: QFromProps) {
     });
     // ✅ This will be type-safe and validated.
     // console.log(values);
-    if (style) {
-      setShow(false);
-    }
+  
   }
 
   const ref = useRef<HTMLFormElement>(null);
 
   return (
     <div
-      className={
-        style ? style : "justify-center flex items-center mt-20 mb-10 "
-      }
+      className="justify-center flex items-center mt-20 mb-10 "
     >
-      {style && <XSquare className=" right-0" onClick={() => setShow(false)} />}
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
@@ -145,7 +136,7 @@ export function QForm({ style, setShow }: QFromProps) {
                   rows={6}
                   placeholder="Describe your requirement in detail"
                   {...field}
-                  className={style ? cn("lg:w-1/2 mb-2") : cn("lg:w-2/3 mb-2")}
+                  className={cn("lg:w-2/3 mb-2")}
                 />
                 <FormMessage />
               </FormItem>

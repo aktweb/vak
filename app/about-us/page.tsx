@@ -1,9 +1,9 @@
-import React from 'react'
-
 const AboutUsPage = () => {
   return (
-    <div className=' min-h-screen flex justify-center items-center'>AboutUsPage</div>
-  )
-}
+    <div className=" min-h-screen flex justify-center items-center">
+      <h1>AboutUsPage</h1>
+    </div>
+  );
+};
 
-export default AboutUsPage
+export default AboutUsPage;
