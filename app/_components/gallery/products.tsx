@@ -61,8 +61,8 @@ export function GalleryComponent({
                         width={300}
                         src={product.image}
                       ></Image>
-                      <div>
-                        <span className={cn("lg:text-center lg:text-base")}>
+                      <div className="flex justify-center items-bas">
+                        <span className={cn(" lg:text-center lg:text-base")}>
                           {product.title}
                           {/* ({index}) */}
                         </span>

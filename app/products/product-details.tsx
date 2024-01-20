@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { QForm } from "@/app/_components/query-form";
 import { cn } from "@/lib/utils";
 import { ProductType } from "@/app/_components/gallery";
+import DetailsAccordian from "../_components/details";
 
 interface ProductPageProps {
   params: {
@@ -39,6 +40,7 @@ const ProductDetailsPage = ({ product }: { product: ProductType | any }) => {
           alt={product?.title}
         />
       </div>
+      {/* <DetailsAccordian /> */}
       <div className=" m-10 flex justify-center ">
         <Button
           onClick={() => setShow(true)}
