@@ -14,12 +14,11 @@ import { Records, columns } from "./columns";
 import { getXataClient } from "@/src/xata";
 import { DataTable } from "./data-table";
 
-async function getData(): Promise<Records[]| any> {
+async function getData(): Promise<Records[] | any> {
   // Fetch data from your API here.
   const xataClient = getXataClient();
-  const records = await xataClient.db.records.getMany();
-  console.log(records);
-  return (records)
+  const records = await xataClient.db.records.getAll();
+  return records;
 }
 
 const Dashboard = async () => {
@@ -31,7 +30,7 @@ const Dashboard = async () => {
   //   }, []);
 
   const data = await getData();
- const reversedData = data.slice().reverse();
+  const reversedData = data.slice().reverse();
   return (
     <div className=" min-h-screen">
       <div className="container mx-auto py-10">

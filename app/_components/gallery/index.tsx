@@ -34,6 +34,9 @@ export async function Gallery() {
 
   return (
     <div>
+      <div className="flex justify-center">
+        <p className=" text-lg font-semibold text-amber-600 ">Our Products</p>
+      </div>
       <GalleryComponent products={products} />
     </div>
   );

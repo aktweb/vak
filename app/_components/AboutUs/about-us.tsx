@@ -42,7 +42,13 @@ const AboutUs = () => {
           </div>
         )}{" "}
       </div>
-      <div className={cn(" m-3 p-4 lg:ms-48 lg:me-48")}>
+      <div className={cn("  p-4 lg:ms-48 lg:me-48")}>
+        <div className="flex justify-center mb-4">
+          <p className=" items-center font-semibold justify-center text-lg">
+            Elevate Your Pneumatic Systems with Vak Pneumatics: A Comprehensive
+            Guide
+          </p>
+        </div>
         <p className="items-center mb-8">
           In the world of industrial automation, efficiency is key, and one name
           that stands out is VAK Pneumatics. Renowned for its cutting-edge
