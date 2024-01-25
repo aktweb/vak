@@ -18,7 +18,17 @@ async function getData(): Promise<Records[] | any> {
   // Fetch data from your API here.
   const xataClient = getXataClient();
   const records = await xataClient.db.records.getAll();
-  return records;
+  let rec: any[] = [];
+  records.map((id) => {
+    rec.push({
+      id: id.id,
+      name: id.name,
+      phone: id.phone,
+      desc: id.desc,
+      email: id.email,
+    });
+  });
+  if (records) return rec;
 }
 
 const Dashboard = async () => {
@@ -30,7 +40,10 @@ const Dashboard = async () => {
   //   }, []);
 
   const data = await getData();
+  console.log(data)
   const reversedData = data.slice().reverse();
+  console.log(reversedData);
+  
   return (
     <div className=" min-h-screen">
       <div className="container mx-auto py-10">

@@ -5,6 +5,7 @@ export type Records = {
   name: string;
   phone: string;
   desc: string;
+  email:string
 };
 
 export const columns: ColumnDef<Records>[] = [

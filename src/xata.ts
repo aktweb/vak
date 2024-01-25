@@ -14,6 +14,7 @@ const tables = [
       { name: "phone", type: "string" },
       { name: "desc", type: "string" },
       { name: "desc", type: "string" },
+      { name: "email", type: "string" },
     ],
   },
   {
