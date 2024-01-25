@@ -40,9 +40,7 @@ const Dashboard = async () => {
   //   }, []);
 
   const data = await getData();
-  console.log(data)
   const reversedData = data.slice().reverse();
-  console.log(reversedData);
   
   return (
     <div className=" min-h-screen">

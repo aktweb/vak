@@ -31,20 +31,21 @@ const formSchema = z.object({
   phone: z.string().min(10, {
     message: "Enter Valid phone number",
   }),
-  email: z.string().email()
-  ,desc: z.string(),
+  email: z.string().email(),
+  desc: z.string(),
 });
 
-
-
 export function QFormMain() {
- const { toast } = useToast();
+  const { toast } = useToast();
 
   // 1. Define your form.
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
       name: "",
+      phone: "",
+      email: "",
+      desc: "",
     },
   });
 
@@ -52,22 +53,19 @@ export function QFormMain() {
   async function onSubmit(values: z.infer<typeof formSchema>) {
     // Do something with the form values.
     console.log("onSub");
-    QueryPost(values);
+    await QueryPost(values);
     toast({
       title: "Submitted Successfully",
       description: "We will get back to you shortly",
     });
     // ✅ This will be type-safe and validated.
     // console.log(values);
-  
   }
 
   const ref = useRef<HTMLFormElement>(null);
 
   return (
-    <div
-      className="justify-center flex items-center mt-20 mb-10 "
-    >
+    <div className="justify-center flex items-center mt-20 mb-10 ">
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}

@@ -49,6 +49,9 @@ export function QForm({ style, setShow }: QFromProps) {
     resolver: zodResolver(formSchema),
     defaultValues: {
       name: "",
+      phone:"",
+      email:"",
+      desc:""
     },
   });
 
@@ -56,7 +59,7 @@ export function QForm({ style, setShow }: QFromProps) {
   async function onSubmit(values: z.infer<typeof formSchema>) {
     // Do something with the form values.
     console.log("onSub");
-    QueryPost(values);
+    await QueryPost(values);
     toast({
       title: "Submitted Successfully",
       description: "We will get back to you shortly",
@@ -68,7 +71,6 @@ export function QForm({ style, setShow }: QFromProps) {
     }
   }
 
-  const ref = useRef<HTMLFormElement>(null);
 
   return (
     <div

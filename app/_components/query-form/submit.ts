@@ -1,7 +1,6 @@
 "use server";
 
 import { getXataClient } from "@/src/xata";
-import { log } from "console";
 import { z } from "zod";
 
 const formSchema = z.object({
