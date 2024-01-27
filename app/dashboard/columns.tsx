@@ -8,7 +8,7 @@ export type Records = {
   email:string
 };
 
-export const columns: ColumnDef<Records>[] = [
+export const columns: ColumnDef<any>[] = [
   {
     accessorKey: "name",
     header: "Name",
