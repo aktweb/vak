@@ -73,7 +73,7 @@ const fetchAndUpdateData = async (
 
 // export default Dashboard;
 
-const Dashboard: React.FC = () => {
+const Dashboard = () => {
   const [data, setData] = useState<XataRecord[]>([]);
 
   useEffect(() => {
