@@ -14,6 +14,7 @@ import { Records, columns } from "./columns";
 import { getXataClient } from "@/src/xata";
 import { DataTable } from "./data-table";
 import { XataRecord } from "@xata.io/client";
+import { GetServerSideProps } from "next";
 
 // async function getData(): Promise<Records[] | any> {
 //   // Fetch data from your API here.
@@ -32,7 +33,7 @@ import { XataRecord } from "@xata.io/client";
 //   if (records) return rec;
 // }
 const fetchAndUpdateData = async (
-  setData: React.Dispatch<React.SetStateAction<XataRecord[]|any>>
+  setData: React.Dispatch<React.SetStateAction<XataRecord[] | any>>
 ) => {
   const xataClient = getXataClient();
   const records = await xataClient.db.records.getAll();
@@ -73,13 +74,12 @@ const fetchAndUpdateData = async (
 
 // export default Dashboard;
 
-const Dashboard = () => {
-  const [data, setData] = useState<XataRecord[]>([]);
+const Dashboard: React.FC<{ initialData: XataRecord[] }> = ({
+  initialData,
+}) => {
+  const [data, setData] = useState<XataRecord[]>(initialData);
 
   useEffect(() => {
-    // Fetch initial data
-    fetchAndUpdateData(setData);
-
     // Poll for updates every 5 seconds (adjust as needed)
     const pollInterval = setInterval(() => {
       fetchAndUpdateData(setData);
@@ -89,8 +89,7 @@ const Dashboard = () => {
     return () => {
       clearInterval(pollInterval);
     };
-  }, []); // Empty dependency array ensures the effect runs only once on mount
-
+  }, []);
   return (
     <div className="min-h-screen">
       <div className="container mx-auto py-10">
@@ -99,6 +98,24 @@ const Dashboard = () => {
       </div>
     </div>
   );
+};
+
+export const getServerSideProps: GetServerSideProps = async () => {
+  // Fetch initial data on the server side before rendering the page
+  const xataClient = getXataClient();
+  const initialData = await xataClient.db.records.getAll();
+
+  return {
+    props: {
+      initialData: initialData.map((id) => ({
+        id: id.id,
+        name: id.name,
+        phone: id.phone,
+        desc: id.desc,
+        email: id.email,
+      })),
+    },
+  };
 };
 
 export default Dashboard;
