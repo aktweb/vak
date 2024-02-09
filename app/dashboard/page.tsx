@@ -13,23 +13,24 @@ import {
 import { Records, columns } from "./columns";
 import { getXataClient } from "@/src/xata";
 import { DataTable } from "./data-table";
+import { GetTableData } from "../actions";
 
-async function getData(): Promise<Records[] | any> {
-  // Fetch data from your API here.
-  const xataClient = getXataClient();
-  const records = await xataClient.db.records.getAll();
-  let rec: any[] = [];
-  records.map((id) => {
-    rec.push({
-      id: id.id,
-      name: id.name,
-      phone: id.phone,
-      desc: id.desc,
-      email: id.email,
-    });
-  });
-  if (records) return rec;
-}
+// async function getData(): Promise<Records[] | any> {
+//   // Fetch data from your API here.
+//   const xataClient = getXataClient();
+//   const records = await xataClient.db.records.getAll();
+//   let rec: any[] = [];
+//   records.map((id) => {
+//     rec.push({
+//       id: id.id,
+//       name: id.name,
+//       phone: id.phone,
+//       desc: id.desc,
+//       email: id.email,
+//     });
+//   });
+//   if (records) return rec;
+// }
 
 const Dashboard = async () => {
   //   useLayoutEffect(() => {
@@ -39,8 +40,11 @@ const Dashboard = async () => {
   //     }
   //   }, []);
 
-  const data = await getData();
-  const reversedData = data.slice().reverse();
+  const data = await GetTableData();
+  let reversedData = [];
+  if (data?.length) {
+    reversedData = data.slice().reverse();
+  }
 
   return (
     <div className=" min-h-screen">

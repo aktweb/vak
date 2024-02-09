@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import * as z from "zod";
 import { XSquare } from "lucide-react";
 
-import { useRef } from "react";
+import { useRef, useTransition } from "react";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -23,6 +23,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Dispatch, SetStateAction } from "react";
 import { QueryPost } from "./submit";
 import { useToast } from "@/components/ui/use-toast";
+import { UploadForm } from "@/app/actions";
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -31,8 +32,8 @@ const formSchema = z.object({
   phone: z.string().min(10, {
     message: "Enter Valid phone number",
   }),
-  email: z.string().email()
-  ,desc: z.string(),
+  desc: z.string(),
+  email: z.string().email(),
 });
 
 interface QFromProps {
@@ -41,36 +42,40 @@ interface QFromProps {
 }
 
 export function QForm({ style, setShow }: QFromProps) {
+  const [isPending, startTransition] = useTransition();
+
   console.log("Qform rendered", style);
- const { toast } = useToast();
+  const { toast } = useToast();
 
   // 1. Define your form.
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
       name: "",
-      phone:"",
-      email:"",
-      desc:""
+      phone: "",
+      desc: "",
+      email: "",
     },
   });
 
-  // 2. Define a submit handler.
   async function onSubmit(values: z.infer<typeof formSchema>) {
-    // Do something with the form values.
     console.log("onSub");
-    await QueryPost(values);
-    toast({
-      title: "Submitted Successfully",
-      description: "We will get back to you shortly",
+    // await QueryPost(values);
+    startTransition(async () => {
+      const result = await UploadForm(values);
+      const { error } = JSON.parse(result);
+      if (!error?.message) {
+        toast({
+          title: "Submitted Successfully!",
+          description: "We will get back to you shortly",
+        });
+      }
     });
-    // ✅ This will be type-safe and validated.
-    // console.log(values);
+    form.reset();
     if (style) {
       setShow(false);
     }
   }
-
 
   return (
     <div
