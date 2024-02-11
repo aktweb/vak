@@ -8,7 +8,7 @@ import { QFormMain } from "./_components/query-form copy";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "VAK Pnuematics",
+  title: "VAK Pneumatics",
   description: "One stop solution for all your pnuematic needs",
 };
 
