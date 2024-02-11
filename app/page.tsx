@@ -2,10 +2,14 @@ import { Gallery } from "./_components/gallery";
 import ClientGallery from "./_components/gallery/clients-gallery";
 import AboutUs from "./_components/AboutUs/about-us";
 import { cn } from "@/lib/utils";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <AboutUs />
       <div className={cn("  p-4 lg:ms-48 lg:me-48")}>
         <div className="flex justify-center mb-4">

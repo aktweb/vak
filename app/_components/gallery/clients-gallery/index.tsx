@@ -260,7 +260,7 @@ const index = () => {
         }}
       >
         <CarouselContent className="-ml-1">
-          <CarouselItem className="pl-1 md:basis-1/3 lg:basis-1/5">
+          <CarouselItem className="pl-1 basis-1/2 lg:basis-1/5">
             <div className="p-1">
               <img
                 src="bajaj-logo.svg"
@@ -269,7 +269,7 @@ const index = () => {
               />
             </div>
           </CarouselItem>
-          <CarouselItem className="pl-1 md:basis-1/3 lg:basis-1/5">
+          <CarouselItem className="pl-1 basis-1/2 lg:basis-1/5">
             <div className="p-1">
               <img
                 src="montra-logo.svg"
@@ -278,12 +278,12 @@ const index = () => {
               />
             </div>
           </CarouselItem>
-          <CarouselItem className="pl-1 md:basis-1/3 lg:basis-1/5">
+          <CarouselItem className="pl-1 basis-1/2 lg:basis-1/5">
             <div className="p-1">
               <img src="hero-logo.svg" className="h-[100px] w-[200px]" alt="" />
             </div>
           </CarouselItem>
-          <CarouselItem className="pl-1 md:basis-1/3 lg:basis-1/5">
+          <CarouselItem className="pl-1 basis-1/2 lg:basis-1/5">
             <div className="p-1">
               <img
                 src="bosch-logo.svg"
@@ -292,12 +292,12 @@ const index = () => {
               />
             </div>
           </CarouselItem>
-          <CarouselItem className="pl-1 md:basis-1/3 lg:basis-1/5">
+          <CarouselItem className="pl-1 basis-1/2 lg:basis-1/5">
             <div className="p-1">
               <img src="kia-logo.svg" className="h-[100px] w-[200px]" alt="" />
             </div>
           </CarouselItem>
-          <CarouselItem className="pl-1 md:basis-1/3 lg:basis-1/5">
+          <CarouselItem className="pl-1 basis-1/2 lg:basis-1/5">
             <div className="p-1">
               <img
                 src="bharatbenz-logo.svg"
@@ -306,7 +306,7 @@ const index = () => {
               />
             </div>
           </CarouselItem>
-          <CarouselItem className="pl-1 md:basis-1/3 lg:basis-1/5">
+          <CarouselItem className="pl-1 basis-1/2 lg:basis-1/5">
             <div className="p-1">
               <img
                 src="xcmgchile-logos-idqPIQI2kL (1).svg"
