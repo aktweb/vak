@@ -11,11 +11,9 @@ import {
 import { cn } from "@/lib/utils";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
-import { Contents } from "@/app/content";
-import Link from "next/link";
-import { useEffect } from "react";
 import { ProductType } from ".";
 import { useRouter } from "next/navigation";
+import { Button } from "@/components/ui/button";
 // import { productsList } from "./products";
 
 export function GalleryComponent({
@@ -25,7 +23,31 @@ export function GalleryComponent({
 }) {
   const router = useRouter();
   function handleClick(product: ProductType) {
-    router.push(`/products/${product.id}`);
+    // router.push(`/products/${product.id}`);
+    if (product.title == "Air Cylinders") {
+      router.push(`/item/air-cylinders`);
+    }
+    if (product.title == "Pneumatic Valves") {
+      router.push(`/item/pneumatic-valves`);
+    }
+    if (product.title == "Air Control Units (FRLs)") {
+      router.push(`/item/air-control-units`);
+    }
+    if (product.title == "Quick Release Couplers (QRCs)") {
+      router.push(`/item/quick-release-couplers`);
+    }
+    if (product.title == "Pneumatic Series Fittings") {
+      router.push(`/item/pneumatic-series-fittings`);
+    }
+    if (product.title == "Pneumatic Series Tubes") {
+      router.push(`/item/pneumatic-series-tubes`);
+    }
+    if (product.title == "Spring Balancer & Hose Reels") {
+      router.push(`/item/spring-balancers`);
+    }
+    if (product.title == "Air Blow Gun, Air Booster, Air Silencers") {
+      router.push(`/item/air-blow-gun`);
+    }
   }
   return (
     <>
@@ -37,7 +59,7 @@ export function GalleryComponent({
         ]}
         opts={{
           align: "start",
-          loop: "true",
+          loop: true,
         }}
         className="p-4 flex justify-center  "
       >
@@ -46,7 +68,9 @@ export function GalleryComponent({
             <CarouselItem key={product.id} className="basis-1/2 lg:basis-1/4">
               <div className="p-1">
                 <Card
-                  className={cn("lg:h-80 lg:w-80")}
+                  className={cn(
+                    " hover:cursor-pointer hover:backdrop-blur-3xl lg:h-80 lg:w-80"
+                  )}
                   onClick={() => handleClick(product)}
                 >
                   <CardContent
@@ -67,6 +91,11 @@ export function GalleryComponent({
                           {/* ({index}) */}
                         </span>
                       </div>
+                      {/* <div className="mt-2 flex justify-center align-bottom">
+                        <Button onClick={() => handleClick(product)}>
+                          Read more{" "}
+                        </Button>
+                      </div> */}
                     </div>
                   </CardContent>
                 </Card>

@@ -154,9 +154,70 @@
 
 // export default ClientGallery;
 
-import React from "react";
+// const index = () => {
+//   return (
+//     <>
+//       <div className="">
+//         <div className=" relative mt-5 lg:m-10 flex justify-between">
+//           <p className=" flex justify-around  text-amber-600 font-semibold text-xl lg:text-4xl w-full">
+//             OUR MAJOR SUPPORTING CLIENTS
+//           </p>
+//         </div>
+//       </div>
+
+//       <div className=" flex justify-between p-5 space-x-3 mt-5 mb-5  relative h-100 mx-auto ">
+//         {/* <div className="before-after-gradient"></div> */}
+//         {/* <div
+//           className="slide-track animate-scroll flex "
+//           style={{ width: "calc(250px * 14)" }}
+//         > */}
+//         <div className="  h-100 w-250 ">
+//           <img src="bajaj-logo.svg" className="h-[100px] w-[200px]" alt="" />
+//         </div>
+//         <div className="  h-100 w-250">
+//           <img src="montra-logo.svg" className="h-[100px] w-[200px]" alt="" />
+//         </div>
+//         <div className="  h-100 w-250">
+//           <img src="hero-logo.svg" className="h-[100px] w-[200px]" alt="" />
+//         </div>
+//         <div className="  h-100 w-250">
+//           <img
+//             src="bosch-logo.svg"
+//             className="h-[100px] me-14 w-[200px]"
+//             alt=""
+//           />
+//         </div>
+//         <div className="  h-100 w-250">
+//           <img src="kia-logo.svg" className="h-[100px] w-[250px]" alt="" />
+//         </div>
+//         {/* <div className=" ">
+//           <img src="xcmg-logo.svg" className="h-[100px] w-[250px]" alt="" />
+//         </div> */}
+//       </div>
+//       {/* // </div> */}
+//     </>
+//   );
+// };
+
+// export default index;
+"use client";
+import * as React from "react";
+
+import { Card, CardContent } from "@/components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 
 const index = () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const plugin = React.useRef(
+    Autoplay({ delay: 1000, stopOnInteraction: true })
+  );
   return (
     <>
       <div className="">
@@ -167,12 +228,7 @@ const index = () => {
         </div>
       </div>
 
-      <div className=" flex justify-between p-5 space-x-3 mt-5 mb-5  relative h-100 mx-auto ">
-        {/* <div className="before-after-gradient"></div> */}
-        {/* <div
-          className="slide-track animate-scroll flex "
-          style={{ width: "calc(250px * 14)" }}
-        > */}
+      {/* <div className=" flex justify-between p-5 space-x-3 mt-5 mb-5  relative h-100 mx-auto ">
         <div className="  h-100 w-250 ">
           <img src="bajaj-logo.svg" className="h-[100px] w-[200px]" alt="" />
         </div>
@@ -192,13 +248,86 @@ const index = () => {
         <div className="  h-100 w-250">
           <img src="kia-logo.svg" className="h-[100px] w-[250px]" alt="" />
         </div>
-        {/* <div className=" ">
-          <img src="xcmg-logo.svg" className="h-[100px] w-[250px]" alt="" />
-        </div> */}
-      </div>
-      {/* // </div> */}
+      </div> */}
+      <Carousel
+        plugins={[plugin.current]}
+        onMouseEnter={plugin.current.stop}
+        onMouseLeave={plugin.current.reset}
+        className="w-full max-h-fit"
+        opts={{
+          align: "start",
+          loop: true,
+        }}
+      >
+        <CarouselContent className="-ml-1">
+          <CarouselItem className="pl-1 md:basis-1/3 lg:basis-1/5">
+            <div className="p-1">
+              <img
+                src="bajaj-logo.svg"
+                className="h-[100px] w-[200px]"
+                alt=""
+              />
+            </div>
+          </CarouselItem>
+          <CarouselItem className="pl-1 md:basis-1/3 lg:basis-1/5">
+            <div className="p-1">
+              <img
+                src="montra-logo.svg"
+                className="h-[100px] w-[200px]"
+                alt=""
+              />
+            </div>
+          </CarouselItem>
+          <CarouselItem className="pl-1 md:basis-1/3 lg:basis-1/5">
+            <div className="p-1">
+              <img src="hero-logo.svg" className="h-[100px] w-[200px]" alt="" />
+            </div>
+          </CarouselItem>
+          <CarouselItem className="pl-1 md:basis-1/3 lg:basis-1/5">
+            <div className="p-1">
+              <img
+                src="bosch-logo.svg"
+                className="h-[100px] w-[200px]"
+                alt=""
+              />
+            </div>
+          </CarouselItem>
+          <CarouselItem className="pl-1 md:basis-1/3 lg:basis-1/5">
+            <div className="p-1">
+              <img src="kia-logo.svg" className="h-[100px] w-[200px]" alt="" />
+            </div>
+          </CarouselItem>
+          <CarouselItem className="pl-1 md:basis-1/3 lg:basis-1/5">
+            <div className="p-1">
+              <img
+                src="bharatbenz-logo.svg"
+                className="h-[100px] w-[200px]"
+                alt=""
+              />
+            </div>
+          </CarouselItem>
+          <CarouselItem className="pl-1 md:basis-1/3 lg:basis-1/5">
+            <div className="p-1">
+              <img
+                src="xcmgchile-logos-idqPIQI2kL (1).svg"
+                className="h-[100px] w-[200px]"
+                alt=""
+              />
+            </div>
+          </CarouselItem>
+        </CarouselContent>
+        {/* <CarouselPrevious />
+        <CarouselNext /> */}
+      </Carousel>
     </>
   );
 };
 
 export default index;
+{
+  /* <Card>
+                  <CardContent className="flex  items-center justify-center p-6">
+                      <span className="text-2xl font-semibold">{index + 1}</span>
+                  </CardContent>
+                </Card> */
+}

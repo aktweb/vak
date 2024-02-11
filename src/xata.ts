@@ -25,6 +25,21 @@ const tables = [
       { name: "desc", type: "string" },
     ],
   },
+  {
+    name: "items",
+    columns: [
+      { name: "product_id", type: "string" },
+      { name: "item_title", type: "string" },
+      { name: "item_features", type: "string" },
+      {
+        name: "item_image",
+        type: "file",
+        file: {
+          defaultPublicAccess: true,
+        },
+      },
+    ],
+  },
 ] as const;
 
 export type SchemaTables = typeof tables;
@@ -35,10 +50,13 @@ export type RecordsRecord = Records & XataRecord;
 
 export type Products = InferredTypes["products"];
 export type ProductsRecord = Products & XataRecord;
+export type Items = InferredTypes["items"];
+export type ItemsRecord = Items & XataRecord;
 
 export type DatabaseSchema = {
   records: RecordsRecord;
   products: ProductsRecord;
+  items: ItemsRecord;
 };
 
 const DatabaseClient = buildClient();

@@ -1,10 +1,7 @@
-import Image from "next/image";
 import { Gallery } from "./_components/gallery";
-import { QForm } from "./_components/query-form";
 import ClientGallery from "./_components/gallery/clients-gallery";
 import AboutUs from "./_components/AboutUs/about-us";
 import { cn } from "@/lib/utils";
-// import './style.css'
 
 export default function Home() {
   return (
@@ -80,11 +77,6 @@ export default function Home() {
           Explore the world of VAK Pneumatics today and revolutionize your
           industrial automation experience.
         </p>
-        {/* <style jsx global>
-        {`
-        background-image: url("../../../public/Pasted image 6.png");
-        `}
-      </style> */}
       </div>
       <Gallery />
 

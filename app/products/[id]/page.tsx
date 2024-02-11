@@ -19,12 +19,16 @@ import ProductDetailsPage from "../product-details";
 async function fetchDetails(params: string): Promise<ProductType | any> {
   const xataClient = getXataClient();
   const products = await xataClient.db.products.read(params);
+  // const productsitem = await xataClient.db.items
+  //   // .filter({ product_id: `${params}` })
+  //   .getMany();
+  // console.log(productsitem + "producst item");
 
   return products;
 }
 
 const ProductPage = async ({ params }: { params: any }) => {
-  console.log({ params } + "\nParams");
+  // console.log({ params } + "\nParams");
 
   const data = await fetchDetails(params);
   return (

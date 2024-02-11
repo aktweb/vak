@@ -6,6 +6,7 @@ import { QForm } from "@/app/_components/query-form";
 import { cn } from "@/lib/utils";
 import { ProductType } from "@/app/_components/gallery";
 import DetailsAccordian from "../_components/details";
+import { useRouter } from "next/navigation";
 
 interface ProductPageProps {
   params: {
@@ -25,11 +26,38 @@ const ProductDetailsPage = ({ product }: { product: ProductType | any }) => {
 
   //   const id = params.index;
   //   const product = product;
-  console.log(product + "product");
+  // console.log(product + "product");
+  const router = useRouter();
+  function handleRoute(id: string) {
+    if (product.title == "Air Cylinders") {
+      router.push(`/item/air-cylinders`);
+    }
+    if (product.title == "Pneumatic Valves") {
+      router.push(`/item/pneumatic-valves`);
+    }
+    if (product.title == "Air Control Units (FRLs)") {
+      router.push(`/item/air-control-units`);
+    }
+    if (product.title == "Quick Release Couplers (QRCs)") {
+      router.push(`/item/quick-release-couplers`);
+    }
+    if (product.title == "Pneumatic Series Fittings") {
+      router.push(`/item/pneumatic-series-fittings`);
+    }
+    if (product.title == "Pneumatic Series Tubes") {
+      router.push(`/item/pneumatic-series-tubes`);
+    }
+    if (product.title == "Spring Balancer & Hose Reels") {
+      router.push(`/item/spring-balancers`);
+    }
+    if (product.title == "Air Blow Gun, Air Booster, Air Silencers") {
+      router.push(`/item/air-blow-gun`);
+    }
+  }
 
   const descriptionLines = product?.desc.split("\\n");
 
-  console.log(descriptionLines);
+  // console.log(descriptionLines);
   return (
     <>
       <div className="flex m-10 justify-center ">
@@ -64,6 +92,14 @@ const ProductDetailsPage = ({ product }: { product: ProductType | any }) => {
           </li>
         ))}{" "}
       </ul>
+      <div className=" m-10 flex justify-center ">
+        <Button
+          onClick={() => handleRoute(product.title)}
+          className=" bg-[#fe9030] w-fit h-12"
+        >
+          <span className=" font-bold">Read More</span>
+        </Button>
+      </div>{" "}
       {/* </div> */}
       {show && (
         <div>
