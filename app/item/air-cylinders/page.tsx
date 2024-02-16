@@ -125,7 +125,7 @@ const AirCylinders = () => {
        <div className=" block text-center items-start">
         <Image
           alt=""
-          className=" float-left  w1/2 me-4 ms-4"          src={`/Standard Tie-Rod Air Cylinder.jpg`}
+          className=" float-left  w1/2 me-4 ms-4"          src={`/Standard Mickey Mouse Air Cylinder.jpg`}
           height={300}
           width={300}
         ></Image>
