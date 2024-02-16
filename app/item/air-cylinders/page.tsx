@@ -215,7 +215,7 @@ const AirCylinders = () => {
       </div>
       {/* ---------- */}
       <div className=" p-2 font-bold text-2xl">
-        5. Compact Standard Aluminium Air Cylinder{" "}
+        5. Compact Standard Aluminium Air Cylinder - SDA Series{" "}
       </div>
        <div className=" block text-center items-start">
         <Image
@@ -255,7 +255,7 @@ const AirCylinders = () => {
       </div>
       {/* ---------- */}
       <div className=" p-2 font-bold text-2xl">
-        6. ISO6431 Compact Standard Air Cylinder{" "}
+        6. ISO6431 Compact Standard Air Cylinder - ADVU Series{" "}
       </div>
        <div className=" block text-center items-start">
         <Image
