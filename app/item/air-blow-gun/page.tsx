@@ -14,8 +14,8 @@ const AirCylinders = () => {
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
           src={`/airgun.jpg`}
-          height={450}
-          width={450}
+          height={300}
+          width={300}
         ></Image>
         <div className=" text-justify">
           <p className="font-semibold text-2xl ">Features</p>
@@ -23,29 +23,32 @@ const AirCylinders = () => {
           <span className=" text-l">
             Air Blow Gun available in plastic and aluminium body
           </span>
-          <p className=" font-semibold text-xl mt-2">ii. Range:</p>
-          <span className=" text-l">
-            Tube Cutter available for size ranging from 4mm to 16mm
-          </span>
         </div>
       </div>
 
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
+      <div className=" block text-center items-start">
+        <Image
+          alt=""
+          className=" float-left  w1/2 me-4 ms-4"
+          src={`/tubecutter.jpg`}
+          height={300}
+          width={300}
+        ></Image>
+        <div className=" text-justify">
+          <p className="font-semibold text-2xl ">Features</p>
+          <p className=" font-semibold text-xl mt-2">i. Body Type:</p>
+          <span className=" text-l">
+           Tube Cutter available in plastic body
+          </span>
+          <p className=" font-semibold text-xl mt-2">ii. Range:</p>
+          <span className=" text-l">
+            Tube Cutter available for size ranging from 4mm to 16mm
+          </span>
+        </div>
+      </div>
       {/* ---------- */}
 
       <div className=" p-2 font-bold text-2xl">2. Air Silencers</div>
