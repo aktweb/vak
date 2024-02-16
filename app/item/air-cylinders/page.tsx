@@ -71,8 +71,8 @@ const AirCylinders = () => {
         <Image
           alt=""
           className=" float-left  w1/2 me-4 ms-4"          src={`/ISO6432 Miniature Standard Air Cylinder.jpg`}
-          height={450}
-          width={450}
+          height={300}
+          width={300}
         ></Image>
         <div className=" text-justify">
           <p className="font-semibold text-2xl ">Features</p>
@@ -126,8 +126,8 @@ const AirCylinders = () => {
         <Image
           alt=""
           className=" float-left  w1/2 me-4 ms-4"          src={`/Standard Tie-Rod Air Cylinder.jpg`}
-          height={450}
-          width={450}
+          height={300}
+          width={300}
         ></Image>
         <div className=" text-justify">
           <p className="font-semibold text-2xl ">Features</p>
