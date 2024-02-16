@@ -172,8 +172,8 @@ const AirCylinders = () => {
         <Image
           alt=""
           className=" float-left  w1/2 me-4 ms-4"          src={`/ISO VDMA Standard Profile Air Cylinder - VNC Series.jpg`}
-          height={450}
-          width={450}
+          height={300}
+          width={300}
         ></Image>
         <div className=" text-justify">
           <p className="font-semibold text-2xl ">Features</p>
@@ -221,8 +221,8 @@ const AirCylinders = () => {
         <Image
           alt=""
           className=" float-left  w1/2 me-4 ms-4"          src={`/Compact Standard Aluminium Air Cylinder - VDVU Series.jpg`}
-          height={450}
-          width={450}
+          height={300}
+          width={300}
         ></Image>
         <div className=" text-justify">
           <p className="font-semibold text-2xl ">Features</p>
@@ -261,8 +261,8 @@ const AirCylinders = () => {
         <Image
           alt=""
           className=" float-left  w1/2 me-4 ms-4"          src={`/ISO6431 Compact Standard Air Cylinder - VADVU Series.jpg`}
-          height={450}
-          width={450}
+          height={300}
+          width={300}
         ></Image>
         <div className=" text-justify">
           <p className="font-semibold text-2xl ">Features</p>
