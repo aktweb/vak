@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 const AirCylinders = () => {
   return (
-    <div className=" p-2 flex-col space-y-10">
+    <div className="flex-col space-y-10">
        <br/>
       <div className=" flex justify-center font-bold text-5xl text-slate-700">
         Pneumatic Valves
