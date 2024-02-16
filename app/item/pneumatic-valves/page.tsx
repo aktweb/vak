@@ -111,8 +111,7 @@ const AirCylinders = () => {
         <Image
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
-          src={`/Compact Manually Operated Valves
-.jpg`}
+          src={`/Compact Manually Operated Valves.jpg`}
           height={450}
           width={450}
         ></Image>
