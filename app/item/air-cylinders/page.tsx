@@ -28,18 +28,18 @@ const AirCylinders = () => {
         ></Image>
         <div className=" text-justify">
           <p className="font-semibold text-2xl ">Features</p>
-          <p className=" font-semibold text-xl mt-2"> i. Non-Lubrication:</p>
+          <p className=" font-semibold text-lg mt-2"> i. Non-Lubrication:</p>
           <span className=" text-l">
             Special housing and bushing enables self lubrication of piston rod.
           </span>
-          <p className=" font-semibold text-xl mt-2">
+          <p className=" font-semibold text-lg mt-2">
             ii. High Quality Long Service Life:
           </p>
           <span className=" text-l">
             Hard anodised aluminium / SS cylinder tubes offer a high resistance
             to corrosion and low internal friction.{" "}
           </span>
-          <p className=" font-semibold text-xl mt-2">iii. Non-Standard Type:</p>
+          <p className=" font-semibold text-lg mt-2">iii. Non-Standard Type:</p>
           <span className=" text-l">
             Custom cylinders are available as are non-standard strokes, rod
             extension and special rod threads.{" "}
@@ -47,7 +47,7 @@ const AirCylinders = () => {
         </div>
       </div>
       {/* <div className="ms-6">
-        <p className=" font-semibold text-xl mt-2">Standard Stroke</p>
+        <p className=" font-semibold text-lg mt-2">Standard Stroke</p>
         <p>Bore Sizes: ∅16, 20, 25, 32 and 40</p>
         <p>Standard Strokes up to 500mm, longer strokes on request</p>
         <p>Wide varieties of standard Mountings and Accessories</p>
@@ -76,25 +76,25 @@ const AirCylinders = () => {
         ></Image>
         <div className=" text-justify">
           <p className="font-semibold text-2xl ">Features</p>
-          <p className=" font-semibold text-xl mt-2"> i. Non-Lubrication:</p>
+          <p className=" font-semibold text-lg mt-2"> i. Non-Lubrication:</p>
           <span className=" text-l">
             Special housing and bushing enables self lubrication of piston rod.{" "}
           </span>
-          <p className=" font-semibold text-xl mt-2">
+          <p className=" font-semibold text-lg mt-2">
             ii. High Quality Long Service Life:
           </p>
           <span className=" text-l">
             Hard anodised SS cylinder tubes offer a high resistance to corrosion
             and low internal friction.
           </span>
-          <p className=" font-semibold text-xl mt-2">
+          <p className=" font-semibold text-lg mt-2">
             iii. Cylinder Mountings:{" "}
           </p>
           <span className=" text-l">
             Available with a comprehensive range of accessories for rigid or
             flexible mounting.
           </span>
-          <p className=" font-semibold text-xl mt-2">iii. Non-Standard Type:</p>
+          <p className=" font-semibold text-lg mt-2">iii. Non-Standard Type:</p>
           <span className=" text-l">
             Custom cylinders are available as are non-standard strokes, rod
             extension and special rod threads.{" "}
@@ -102,7 +102,7 @@ const AirCylinders = () => {
         </div>
       </div>
       {/* <div className="ms-6">
-        <p className=" font-semibold text-xl mt-2">Standard Stroke</p>
+        <p className=" font-semibold text-lg mt-2">Standard Stroke</p>
         <p>Conforms to ISO 6432 and CETOP standards</p>
         <p>Bore Sizes: ∅8, 12, 16, 20, 25 and 32</p>
         <p>Standard Strokes up to 500mm, longer strokes on request</p>
@@ -131,28 +131,28 @@ const AirCylinders = () => {
         ></Image>
         <div className=" text-justify">
           <p className="font-semibold text-2xl ">Features</p>
-          <p className=" font-semibold text-xl mt-2"> i. Non-Lubrication:</p>
+          <p className=" font-semibold text-lg mt-2"> i. Non-Lubrication:</p>
           <span className=" text-l">
             Special housing and bushing enables self lubrication of piston rod.{" "}
           </span>
-          <p className=" font-semibold text-xl mt-2">
+          <p className=" font-semibold text-lg mt-2">
             ii. High Quality Long Service Life:
           </p>
           <span className=" text-l">
             Hard anodised aluminium cylinder tubes offer a high resistance to
             corrosion and low internal friction.{" "}
           </span>
-          <p className=" font-semibold text-xl mt-2">iii. Non-Standard Type:</p>
+          <p className=" font-semibold text-lg mt-2">iii. Non-Standard Type:</p>
           <span className=" text-l">
             Custom cylinders are available as are non-standard strokes, rod
             extension and special rod threads.{" "}
           </span>
-          <p className=" font-semibold text-xl mt-2">v. Cylinder Mountings: </p>
+          <p className=" font-semibold text-lg mt-2">v. Cylinder Mountings: </p>
           <span className=" text-l">
             Wide range of bore sizes and strokes (32mm ∼ 200mm). Available in
             both Single and Double Acting
           </span>
-          <p className=" font-semibold text-xl mt-2">vi. Wide Range:</p>
+          <p className=" font-semibold text-lg mt-2">vi. Wide Range:</p>
           <span className=" text-l">
             Custom cylinders are available as are non-standard strokes, rod
             extension and special rod threads.{" "}
@@ -177,32 +177,32 @@ const AirCylinders = () => {
         ></Image>
         <div className=" text-justify">
           <p className="font-semibold text-2xl ">Features</p>
-          <p className=" font-semibold text-xl mt-2"> i. Non-Lubrication:</p>
+          <p className=" font-semibold text-lg mt-2"> i. Non-Lubrication:</p>
           <span className=" text-l">
             Special housing and bushing enables self lubrication of piston rod.
           </span>
-          <p className=" font-semibold text-xl mt-2">
+          <p className=" font-semibold text-lg mt-2">
             ii. High Quality Long Service Life:
           </p>
           <span className=" text-l">
             Hard anodised aluminium / SS cylinder tubes offer a high resistance
             to corrosion and low internal friction.{" "}
           </span>
-          <p className=" font-semibold text-xl mt-2">
+          <p className=" font-semibold text-lg mt-2">
             iii. ISO VDMA Standard Specification:{" "}
           </p>
           <span className=" text-l">
             Conforms to ISO-6431 and VDMA 24562 specification enabling worldwide
             interchangeability.{" "}
           </span>
-          <p className=" font-semibold text-xl mt-2">
+          <p className=" font-semibold text-lg mt-2">
             iv. Easy to Insert Reed Switch:{" "}
           </p>
           <span className=" text-l">
             With four grooves on the tub, proximity and reed sensors can be
             easily inserted into any position.
           </span>
-          <p className=" font-semibold text-xl mt-2">v. Non-Standard Type:</p>
+          <p className=" font-semibold text-lg mt-2">v. Non-Standard Type:</p>
           <span className=" text-l">
             Custom cylinders are available as are non-standard strokes, rod
             extension and special rod threads.
@@ -226,23 +226,23 @@ const AirCylinders = () => {
         ></Image>
         <div className=" text-justify">
           <p className="font-semibold text-2xl ">Features</p>
-          <p className=" font-semibold text-xl mt-2"> i. Compact:</p>
+          <p className=" font-semibold text-lg mt-2"> i. Compact:</p>
           <span className=" text-l">
             Ultra Compact, light weight & space saving cylinder.{" "}
           </span>
-          <p className=" font-semibold text-xl mt-2">ii. Wide Range:</p>
+          <p className=" font-semibold text-lg mt-2">ii. Wide Range:</p>
           <span className=" text-l">
             Wide range of bore sizes (12mm ∼ 100mm) & strokes. Available in both
             Single and Double Acting.
           </span>
-          <p className=" font-semibold text-xl mt-2">
+          <p className=" font-semibold text-lg mt-2">
             iii. High Quality Long Service Life:
           </p>
           <span className=" text-l">
             Hard anodised aluminium cylinder tubes offer a high resistance to
             corrosion and low internal friction.
           </span>
-          <p className=" font-semibold text-xl mt-2">v. Non-Standard Type:</p>
+          <p className=" font-semibold text-lg mt-2">v. Non-Standard Type:</p>
           <span className=" text-l">
             Custom cylinders are available as are non-standard strokes, rod
             extension and special rod threads.
@@ -266,25 +266,25 @@ const AirCylinders = () => {
         ></Image>
         <div className=" text-justify">
           <p className="font-semibold text-2xl ">Features</p>
-          <p className=" font-semibold text-xl mt-2"> i. Compact:</p>
+          <p className=" font-semibold text-lg mt-2"> i. Compact:</p>
           <span className=" text-l">
             Ultra Compact, light weight & space saving cylinder. Ideal for use
             in machinery where space is limited and incorporating sensor groove
             which enables flush fitting of sensors.{" "}
           </span>
-          <p className=" font-semibold text-xl mt-2">ii. Wide Range:</p>
+          <p className=" font-semibold text-lg mt-2">ii. Wide Range:</p>
           <span className=" text-l">
             Wide range of bore sizes and strokes (12mm ∼ 100mm). Available in
             both Single and Double Acting.
           </span>
-          <p className=" font-semibold text-xl mt-2">
+          <p className=" font-semibold text-lg mt-2">
             iii. High Quality Long Service Life:
           </p>
           <span className=" text-l">
             Hard anodised aluminium cylinder tube offer a high resistance to
             corrosion and low internal friction.
           </span>
-          <p className=" font-semibold text-xl mt-2">iv. Non-Standard Type:</p>
+          <p className=" font-semibold text-lg mt-2">iv. Non-Standard Type:</p>
           <span className=" text-l">
             Custom cylinders are available as are non-standard strokes, rod
             extension and special rod threads.

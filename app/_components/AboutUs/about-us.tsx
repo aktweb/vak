@@ -21,7 +21,7 @@ const AboutUs = () => {
         onMouseLeave={() => setIsHovered(false)}
       >
         <img
-          className={cn(" w-full lg:w-2/3 ")}
+          className={cn(" w-full lg:w-3/5 ")}
           src="about-us.jpg"
           alt="Abput Us"
         />
