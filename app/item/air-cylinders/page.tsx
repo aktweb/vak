@@ -166,7 +166,7 @@ const AirCylinders = () => {
       {/* ---------- */}
 
       <div className=" p-2 font-bold text-2xl">
-        4. ISO VDMA Standard Profile Air Cylinder{" "}
+        4. ISO DNC Standard Profile Air Cylinder{" "}
       </div>
        <div className=" block text-center items-start">
         <Image
