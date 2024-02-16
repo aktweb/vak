@@ -25,16 +25,16 @@ const AirCylinders = () => {
           </span>
         </div>
       </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <div className=" block text-center items-start">
         <Image
           alt=""
