@@ -23,8 +23,8 @@ const AirCylinders = () => {
         <Image
           alt=""
           className=" float-left  w1/2 me-4 ms-4"          src={`/MiniatureStandardAirCylinder.jpg`}
-          height={250}
-          width={250}
+          height={300}
+          width={300}
         ></Image>
         <div className=" text-justify">
           <p className="font-semibold text-2xl ">Features</p>
