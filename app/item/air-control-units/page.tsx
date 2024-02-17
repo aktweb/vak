@@ -3,7 +3,8 @@ import Image from "next/image";
 const AirControlUnits = () => {
   return (
     <div className=" p-2 flex-col space-y-10">
-      <div className=" flex justify-center font-semibold text-xl">
+      <br/>
+      <div className="flex justify-center font-bold text-5xl text-slate-700">
         Air Control Units (FRLs)
       </div>
       <div className=" flex ms-6 me-6">
@@ -17,7 +18,7 @@ const AirControlUnits = () => {
         </span>
       </div>
 
-      <div className=" p-2 font-bold text-2xl">
+      <div className=" p-2 font-semibold text-3xl">
         1. New Generation Air Control Units (FRLs) - O Series
       </div>
       <div className=" block text-center items-start">
@@ -25,51 +26,51 @@ const AirControlUnits = () => {
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
           src={`/1. New Generation Air Control Units (FRLs) - O Series.jpg`}
-          height={450}
-          width={450}
+          height={380}
+          width={380}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-2xl ">Features</p>
-          <p className=" font-semibold text-xl mt-2"> i. Thread Sizes:</p>
+          <p className="font-semibold text-3xl text-gray-500  ">Features</p>
+          <p className="   font-semibold text-xl mt-2 transform skew-x-12 transform skew-x-12"> Thread Sizes:</p>
           <span className=" text-l">
             M5, G1/8, G1/4, G3/8, G1/2, G3/4 and G1
           </span>
-          <p className=" font-semibold text-xl mt-2">ii. Combination Units:</p>
+          <p className="   font-semibold text-xl mt-2 transform skew-x-12 transform skew-x-12"> Combination Units:</p>
           <span className=" text-l">
             Filter Regulator + Lubricator, Filter Regulator, Air Regulator, Air
             Lubricator, Air Filter and Micro Filter
           </span>
-          <p className=" font-semibold text-xl mt-2">iii. Modular Units:</p>
+          <p className="   font-semibold text-xl mt-2 transform skew-x-12 transform skew-x-12"> Modular Units:</p>
           <span className=" text-l">For easy maintenance</span>
-          <p className=" font-semibold text-xl mt-2">iv. Accessories:</p>
+          <p className="   font-semibold text-xl mt-2 transform skew-x-12 transform skew-x-12"> Accessories:</p>
           <span className=" text-l">
             Wall and Panel Mounting Brackets, connecting nipples and pressure
             guages
           </span>
-          <p className=" font-semibold text-xl mt-2">v. Automatic Drain:</p>
+          <p className="   font-semibold text-xl mt-2 transform skew-x-12 transform skew-x-12"> Automatic Drain:</p>
           <span className=" text-l">(Internal)</span>
-          <p className=" font-semibold text-xl mt-2">
-            vi. Precision Regulators:
+          <p className="   font-semibold text-xl mt-2 transform skew-x-12 transform skew-x-12">
+             Precision Regulators:
           </p>
           <span className=" text-l">G1/8, G1/4, G1/2</span>
         </div>
       </div>
-
+      <br/>
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
 
       {/* ---------- */}
 
-      <div className=" p-2 font-bold text-2xl">2. Filter Regulator / OFR</div>
+      <div className=" p-2 font-semibold text-3xl">2. Filter Regulator / OFR</div>
       <div className=" block text-center items-start">
         {" "}
         <Image
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
           src={`/2. Filter Regulator OFR.jpg`}
-          height={450}
-          width={450}
+          height={350}
+          width={350}
         ></Image>
         <div className=" text-justify">
           {" "}
@@ -83,27 +84,29 @@ const AirControlUnits = () => {
           </span>
         </div>
       </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
       {/* ---------- */}
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
 
-      <div className=" p-2 font-bold text-2xl">3. Regulator / OR</div>
+      <div className=" p-2 font-semibold text-3xl">3. Regulator / OR</div>
       <div className=" block text-center items-start">
         <Image
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
           src={`/3. Regulator.jpg`}
-          height={450}
-          width={450}
+          height={350}
+          width={350}
         ></Image>
         <div className=" text-justify">
           <p className="  text-l mt-2">
@@ -112,30 +115,32 @@ const AirControlUnits = () => {
           </p>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
 
       {/* ---------- */}
 
-      <div className=" p-2 font-bold text-2xl">4. Filter / OF</div>
+      <div className=" p-2 font-semibold text-3xl">4. Filter / OF</div>
       <div className=" block text-center items-start">
         <Image
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
           src={`/4. Filter.jpg`}
-          height={450}
-          width={450}
+          height={350}
+          width={350}
         ></Image>
         <div className=" text-justify">
           <span className=" text-l">
@@ -146,29 +151,30 @@ const AirControlUnits = () => {
           </span>
         </div>
       </div>
-
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       {/* ---------- */}
       <div>
-        <div className=" p-2 font-bold text-2xl">5. Lubricator / OL</div>
+        <div className=" p-2 font-semibold text-3xl">5. Lubricator / OL</div>
         <div className=" block text-center items-start">
           <Image
             alt=""
             className=" float-left  w1/2 me-4 ms-4"
             src={`/5. Lubricator.jpg`}
-            height={450}
-            width={450}
+            height={350}
+            width={350}
           ></Image>
           <div className=" text-justify">
             <span className=" text-l">
@@ -185,20 +191,19 @@ const AirControlUnits = () => {
           </div>
         </div>
       </div>
-
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       {/* ---------- */}
-      <br />
-      <br />
-      <div className=" p-2 font-bold text-2xl">
+      <div className=" p-2 font-semibold text-3xl">
         6. Pressure Regulator Combinations / ORB
       </div>
       <div className=" block text-center items-start">
@@ -206,8 +211,8 @@ const AirControlUnits = () => {
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
           src={`/6. Pressure Regulator Combinations.jpg`}
-          height={450}
-          width={450}
+          height={350}
+          width={350}
         ></Image>
         <div className=" text-justify">
           <span className=" text-l">
@@ -217,17 +222,19 @@ const AirControlUnits = () => {
           </span>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      {/* ---------- */}
-      <br />
-      <br />
     </div>
   );
 };

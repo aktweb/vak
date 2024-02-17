@@ -28,7 +28,7 @@ const AboutUs = () => {
         {isHovered && (
           <div
             className={cn(
-              "absolute top-[200px] lg:top-1/2 lg:justify-center lg:items-center    shadow-black  shadow-2xl"
+              "absolute top-[200px] lg:top-1/3 lg:justify-center lg:items-center    shadow-black  shadow-2xl"
             )}
           >
             <Button

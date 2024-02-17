@@ -2,12 +2,12 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 const AirCylinders = () => {
   return (
-    <div className="flex-col space-y-10">
+    <div className="flex-col justify-center space-y-10">
        <br/>
       <div className=" flex justify-center font-bold text-5xl text-slate-700">
         Pneumatic Valves
       </div>
-      <div className=" flex  ms-6 justify-start text-neutral-600 font-semibold text-4xl">
+      <div className=" flex  ms-6 justify-start text-neutral-600 font-semibold text-3xl">
         Solenoid Valves
       </div>
 
