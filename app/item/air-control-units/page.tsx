@@ -30,7 +30,7 @@ const AirControlUnits = () => {
           width={380}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500  ">Features</p>
+          <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="   font-semibold text-xl mt-2 transform skew-x-12 transform skew-x-12"> Thread Sizes:</p>
           <span className=" text-l">
             M5, G1/8, G1/4, G3/8, G1/2, G3/4 and G1

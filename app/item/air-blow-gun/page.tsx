@@ -19,7 +19,7 @@ const AirCylinders = () => {
           width={350}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500 ">Features</p>
+          <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">Body Type:</p>
           <span className=" text-l">
             Air Blow Gun available in plastic and aluminium body
@@ -48,7 +48,7 @@ const AirCylinders = () => {
           width={350}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500">Features</p>
+          <p className="font-semibold text-2xl text-gray-500">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">Body Type:</p>
           <span className=" text-l">
            Tube Cutter available in plastic body
@@ -60,8 +60,6 @@ const AirCylinders = () => {
         </div>
       </div>
       {/* ---------- */}
-      <br/>
-      <br/>
       <br/>
       <br/>
       <br/>
@@ -83,7 +81,7 @@ const AirCylinders = () => {
           width={350}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500">Features</p>
+          <p className="font-semibold text-2xl text-gray-500">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">Thread Sizes:</p>
           <span className=" text-l">
             G1/8, G1/4, G3/8, G1/2, G3/4, G1 and G2

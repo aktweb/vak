@@ -7,7 +7,7 @@ const AirCylinders = () => {
       <div className=" flex justify-center font-bold text-5xl text-slate-700">
         Pneumatic Valves
       </div>
-      <div className=" flex  ms-6 justify-start text-neutral-600 font-semibold text-3xl">
+      <div className=" flex  ms-6 justify-start text-neutral-600 font-semibold text-4xl">
         Solenoid Valves
       </div>
 
@@ -21,7 +21,7 @@ const AirCylinders = () => {
           width={450}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500 ">Features</p>
+          <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Thread Sizes:</p>
           <span className=" text-l">M5, G1/8, G1/4, G3/8 and G1/2</span>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Types:</p>
@@ -70,7 +70,7 @@ const AirCylinders = () => {
         ></Image>
         <div className=" text-justify">
           {" "}
-          <p className="font-semibold text-3xl text-gray-500 ">Features</p>
+          <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Thread Sizes:</p>
           <span className=" text-l">
             G1/4, G3/8, G1/2, G3/4, G1 1/4, G1 1/2 and G2
@@ -100,7 +100,7 @@ const AirCylinders = () => {
       </div>
       {/* ---------- */}
 
-      <div className=" flex  ms-6 justify-start text-neutral-600 font-semibold text-3xl">
+      <div className=" flex  ms-6 justify-start text-neutral-600 font-semibold text-4xl">
         Mechanical Valves
       </div>
 
@@ -116,7 +116,7 @@ const AirCylinders = () => {
           width={450}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500 ">Features</p>
+          <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Thread Sizes:</p>
           <span className=" text-l">G1/4 and G1/2</span>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Version:</p>
@@ -156,7 +156,7 @@ const AirCylinders = () => {
           width={450}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500 ">Features</p>
+          <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Design:</p>
           <span className=" text-l">Spool design</span>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Thread Sizes:</p>
@@ -196,7 +196,7 @@ const AirCylinders = () => {
             width={450}
           ></Image>
           <div className=" text-justify">
-            <p className="font-semibold text-3xl text-gray-500 ">Features</p>
+            <p className="font-semibold text-2xl text-gray-500 ">Features</p>
             <p className="  font-semibold text-xl mt-2 transform skew-x-12">Tread Sizes:</p>
             <span className=" text-l">G1/4</span>
             <p className="  font-semibold text-xl mt-2 transform skew-x-12">Versions:</p>
@@ -229,7 +229,7 @@ const AirCylinders = () => {
           width={450}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500 ">Features</p>
+          <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Thread Sizes:</p>
           <span className=" text-l">G1/8, G1/4, G3/8 and G1/2</span>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Flow Control:</p>
@@ -262,7 +262,7 @@ const AirCylinders = () => {
           width={450}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500 ">Features</p>
+          <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Thread Sizes:</p>
           <span className=" text-l">G1/4 and G3/8</span>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Final Vacuum:</p>
@@ -286,7 +286,7 @@ const AirCylinders = () => {
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
-      <div className=" flex  ms-6 justify-start text-neutral-600 font-semibold text-3xl">
+      <div className=" flex  ms-6 justify-start text-neutral-600 font-semibold text-4xl">
         Ball Valves
       </div>
       <div className="p-2 font-semibold text-3xl">
@@ -301,7 +301,7 @@ const AirCylinders = () => {
           width={450}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500 ">Features</p>
+          <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">
             {" "}
             Suitable for Industrial, Pneumatic, Domestic and Hydraulic
@@ -349,7 +349,7 @@ const AirCylinders = () => {
           width={450}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500 ">Features</p>
+          <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">
             {" "}
             Suitable for Industrial, Pneumatic, Domestic and Hydraulic
@@ -395,7 +395,7 @@ const AirCylinders = () => {
           width={450}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500 ">Features</p>
+          <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">
             {" "}
             Suitable for Industrial, Pneumatic, Domestic and Hydraulic
@@ -443,7 +443,7 @@ const AirCylinders = () => {
           width={450}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500 ">Features</p>
+          <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">
             {" "}
             Suitable for Industrial, Pneumatic, Domestic and Hydraulic

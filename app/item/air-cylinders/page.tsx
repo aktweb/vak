@@ -28,7 +28,7 @@ const AirCylinders = () => {
           width={350}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500">Features</p>
+          <p className="font-semibold text-2xl text-gray-500">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12"> Non-Lubrication:</p>
           <span className=" text-l">
             Special housing and bushing enables self lubrication of piston rod.
@@ -80,7 +80,7 @@ const AirCylinders = () => {
           width={350}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500">Features</p>
+          <p className="font-semibold text-2xl text-gray-500">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12"> Non-Lubrication:</p>
           <span className=" text-l">
             Special housing and bushing enables self lubrication of piston rod.{" "}
@@ -139,7 +139,7 @@ const AirCylinders = () => {
           width={350}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500">Features</p>
+          <p className="font-semibold text-2xl text-gray-500">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">  Non-Lubrication:</p>
           <span className=" text-l">
             Special housing and bushing enables self lubrication of piston rod.{" "}
@@ -188,7 +188,7 @@ const AirCylinders = () => {
           width={350}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500">Features</p>
+          <p className="font-semibold text-2xl text-gray-500">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">  Non-Lubrication:</p>
           <span className=" text-l">
             Special housing and bushing enables self lubrication of piston rod.
@@ -240,7 +240,7 @@ const AirCylinders = () => {
           width={350}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500">Features</p>
+          <p className="font-semibold text-2xl text-gray-500">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">  Compact:</p>
           <span className=" text-l">
             Ultra Compact, light weight & space saving cylinder.{" "}
@@ -283,7 +283,7 @@ const AirCylinders = () => {
           width={350}
         ></Image>
         <div className=" text-justify">
-          <p className="font-semibold text-3xl text-gray-500">Features</p>
+          <p className="font-semibold text-2xl text-gray-500">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">  Compact:</p>
           <span className=" text-l">
             Ultra Compact, light weight & space saving cylinder. Ideal for use
