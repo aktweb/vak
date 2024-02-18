@@ -203,38 +203,6 @@ const AirControlUnits = () => {
         <hr className=" w-[80%] font-semibold" />
       </div>
       {/* ---------- */}
-      <div className=" p-2 font-semibold text-3xl">
-        6. Pressure Regulator Combinations / ORB
-      </div>
-      <div className=" block text-center items-start">
-        <Image
-          alt=""
-          className=" float-left  w1/2 me-4 ms-4"
-          src={`/6. Pressure Regulator Combinations.jpg`}
-          height={350}
-          width={350}
-        ></Image>
-        <div className=" text-justify">
-          <span className=" text-l">
-            The regulator for an integrated installation, can provide a variety
-            of different pressure gas source, the front and rear sides of each
-            one has an output connection.
-          </span>
-        </div>
-      </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <div className=" flex justify-center">
-        <hr className=" w-[80%] font-semibold" />
-      </div>
     </div>
   );
 };
