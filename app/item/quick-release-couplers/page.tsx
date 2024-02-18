@@ -2,7 +2,7 @@ import Image from "next/image";
 const AirCylinders = () => {
   return (
     <div className=" flex-col space-y-10">
-      <div className=" flex justify-center font-bold text-5xl text-slate-700">
+      <div className=" flex justify-center font-bold text-5xl text-slate-700 ml-4">
         <br/>
         Quick Release Couplers (QRCs)
       </div>

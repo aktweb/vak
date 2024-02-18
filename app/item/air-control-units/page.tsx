@@ -4,7 +4,7 @@ const AirControlUnits = () => {
   return (
     <div className=" p-2 flex-col space-y-10">
       <br/>
-      <div className="flex justify-center font-bold text-5xl text-slate-700">
+      <div className="flex justify-center font-bold text-5xl text-slate-700 ml-6">
         Air Control Units (FRLs)
       </div>
       <div className=" flex ms-6 me-6">
