@@ -3,11 +3,11 @@ const AirCylinders = () => {
   return (
     <div className=" flex-col space-y-10">
       <br/>
-      <div className=" flex justify-center font-bold text-5xl text-slate-700">
+      <div className=" flex justify-center font-bold text-5xl text-slate-700 ml-4">
         Air Blow Gun & Air Silencers
       </div>
 
-      <div className=" p-2 font-semibold text-4xl">
+      <div className=" p-2 font-semibold text-4xl ml-4">
          <span> 1. Air Blow Gun & Tube Cutter</span>
          </div>
       <div className=" block text-center items-start">
@@ -18,7 +18,7 @@ const AirCylinders = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">Body Type:</p>
           <span className=" text-l">
@@ -47,7 +47,7 @@ const AirCylinders = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">Body Type:</p>
           <span className=" text-l">
@@ -71,7 +71,7 @@ const AirCylinders = () => {
         <hr className=" w-[80%] font-semibold" />
       </div>
       {/* ---------- */}
-      <div className=" p-2 font-semibold text-4xl">2. Air Silencers</div>
+      <div className=" p-2 font-semibold text-4xl ml-4">2. Air Silencers</div>
       <div className=" block text-center items-start">
         <Image
           alt=""
@@ -80,7 +80,7 @@ const AirCylinders = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">Thread Sizes:</p>
           <span className=" text-l">

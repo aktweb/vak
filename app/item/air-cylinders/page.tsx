@@ -17,7 +17,7 @@ const AirCylinders = () => {
           manufactured.
         </span>
       </div>
-      <div className="  p-2 font-semibold text-4xl">
+      <div className="  p-2 font-semibold text-4xl ml-4">
         1. Miniature Standard Air Cylinder
       </div>
        <div className=" block text-center items-start">
@@ -27,7 +27,7 @@ const AirCylinders = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12"> Non-Lubrication:</p>
           <span className=" text-l">
@@ -69,7 +69,7 @@ const AirCylinders = () => {
 
       {/* ---------- */}
 
-      <div className="  p-2 font-semibold text-4xl">
+      <div className="  p-2 font-semibold text-4xl ml-4">
         2. ISO6432 Miniature Standard Air Cylinder{" "}
       </div>
        <div className=" block text-center items-start">
@@ -79,7 +79,7 @@ const AirCylinders = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12"> Non-Lubrication:</p>
           <span className=" text-l">
@@ -128,7 +128,7 @@ const AirCylinders = () => {
       </div>
       {/* ---------- */}
 
-      <div className="  p-2 font-semibold text-4xl">
+      <div className="  p-2 font-semibold text-4xl ml-4">
         3. Standard Tie-Rod Air Cylinder{" "}
       </div>
        <div className=" block text-center items-start">
@@ -138,7 +138,7 @@ const AirCylinders = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">  Non-Lubrication:</p>
           <span className=" text-l">
@@ -177,7 +177,7 @@ const AirCylinders = () => {
       </div>
       {/* ---------- */}
 
-      <div className="  p-2 font-semibold text-4xl">
+      <div className="  p-2 font-semibold text-4xl ml-4">
         4. ISO DNC Standard Profile Air Cylinder{" "}
       </div>
        <div className=" block text-center items-start">
@@ -187,7 +187,7 @@ const AirCylinders = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">  Non-Lubrication:</p>
           <span className=" text-l">
@@ -229,7 +229,7 @@ const AirCylinders = () => {
         <hr className=" w-[80%] font-semibold" />
       </div>
       {/* ---------- */}
-      <div className="  p-2 font-semibold text-4xl">
+      <div className="  p-2 font-semibold text-4xl ml-4">
         5. Compact Standard Aluminium Air Cylinder - SDA Series{" "}
       </div>
        <div className=" block text-center items-start">
@@ -239,7 +239,7 @@ const AirCylinders = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">  Compact:</p>
           <span className=" text-l">
@@ -272,7 +272,7 @@ const AirCylinders = () => {
         <hr className=" w-[80%] font-semibold" />
       </div>
       {/* ---------- */}
-      <div className="  p-2 font-semibold text-4xl">
+      <div className="  p-2 font-semibold text-4xl ml-4">
         6. ISO6431 Compact Standard Air Cylinder - ADVU Series{" "}
       </div>
        <div className=" block text-center items-start">
@@ -282,7 +282,7 @@ const AirCylinders = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">  Compact:</p>
           <span className=" text-l">

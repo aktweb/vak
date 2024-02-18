@@ -4,23 +4,23 @@ const AirCylinders = () => {
   return (
     <div className="flex-col justify-center space-y-10">
        <br/>
-      <div className=" flex justify-center font-bold text-5xl text-slate-700">
+      <div className=" flex justify-center font-bold text-5xl text-slate-700 ml-6">
         Pneumatic Valves
       </div>
       <div className=" flex  ms-6 justify-start text-neutral-600 font-semibold text-4xl">
         Solenoid Valves
       </div>
 
-      <div className="p-2 font-semibold text-3xl">1. Compact Solenoid Valves</div>
+      <div className="ml-4 p-2 font-semibold text-3xl">1. Compact Solenoid Valves</div>
       <div className=" block text-center items-start">
         <Image
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
           src={`/Compact Solenoid Valves.jpg`}
-          height={450}
-          width={450}
+          height={430}
+          width={430}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Thread Sizes:</p>
           <span className=" text-l">M5, G1/8, G1/4, G3/8 and G1/2</span>
@@ -40,7 +40,7 @@ const AirCylinders = () => {
           <span className=" text-l">Wide range of manifolds available</span>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Coil Voltage:</p>
           <span className=" text-l">Wide range of coil voltages</span>
-          <p className="  font-semibold text-xl mt-2 transform skew-x-12">tandard:</p>
+          <p className="  font-semibold text-xl mt-2 transform skew-x-12">Standard:</p>
           <span className=" text-l">
             Solenoid connectors conforms to DIN 43650 standards
           </span>
@@ -56,7 +56,7 @@ const AirCylinders = () => {
 
       {/* ---------- */}
 
-      <div className="p-2 font-semibold text-3xl">
+      <div className="ml-4 p-2 font-semibold text-3xl">
         2. Direct Operating and Diaphragm Operated Valves
       </div>
       <div className=" block text-center items-start">
@@ -65,10 +65,10 @@ const AirCylinders = () => {
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
           src={`/Direct Operating and Diaphragm Operated Valves1.jpg`}
-          height={450}
-          width={450}
+          height={430}
+          width={430}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           {" "}
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Thread Sizes:</p>
@@ -104,7 +104,7 @@ const AirCylinders = () => {
         Mechanical Valves
       </div>
 
-      <div className="p-2 font-semibold text-3xl">
+      <div className="ml-4 p-2 font-semibold text-3xl">
         1. Compact Manually Operated Valves
       </div>
       <div className=" block text-center items-start">
@@ -112,10 +112,10 @@ const AirCylinders = () => {
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
           src={`/Compact Manually Operated Valves.jpg`}
-          height={450}
-          width={450}
+          height={430}
+          width={430}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Thread Sizes:</p>
           <span className=" text-l">G1/4 and G1/2</span>
@@ -144,7 +144,7 @@ const AirCylinders = () => {
       </div>
       {/* ---------- */}
 
-      <div className="p-2 font-semibold text-3xl">
+      <div className="ml-4 p-2 font-semibold text-3xl">
         2. Compact Mechanical Valves
       </div>
       <div className=" block text-center items-start">
@@ -152,10 +152,10 @@ const AirCylinders = () => {
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
           src={`/Compact Mechanical Valves.jpg`}
-          height={450}
-          width={450}
+          height={430}
+          width={430}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Design:</p>
           <span className=" text-l">Spool design</span>
@@ -186,16 +186,16 @@ const AirCylinders = () => {
 
       {/* ---------- */}
       <div>
-        <div className="p-2 font-semibold text-3xl">Food Operated Valves</div>
+        <div className="ml-4 p-2 font-semibold text-3xl">3.Food Operated Valves</div>
         <div className=" block text-center items-start">
           <Image
             alt=""
             className=" float-left  w1/2 me-4 ms-4"
             src={`/3. Food Operated Valves.jpg`}
-            height={450}
-            width={450}
+            height={430}
+            width={430}
           ></Image>
-          <div className=" text-justify">
+          <div className=" text-justify ml-3">
             <p className="font-semibold text-2xl text-gray-500 ">Features</p>
             <p className="  font-semibold text-xl mt-2 transform skew-x-12">Tread Sizes:</p>
             <span className=" text-l">G1/4</span>
@@ -213,22 +213,23 @@ const AirCylinders = () => {
       <br/>
       <br/>
       <br />
+      <br/>
+      <br/>
+      <br/>
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
       {/* ---------- */}
-      <br />
-      <br />
-      <div className="p-2 font-semibold text-3xl">4. Airline Valves</div>
+      <div className="ml-4 ml-4 p-2 font-semibold text-3xl">4. Airline Valves</div>
       <div className=" block text-center items-start">
         <Image
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
           src={`/4. Airline Valves.jpg`}
-          height={450}
-          width={450}
+          height={430}
+          width={430}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Thread Sizes:</p>
           <span className=" text-l">G1/8, G1/4, G3/8 and G1/2</span>
@@ -252,16 +253,16 @@ const AirCylinders = () => {
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
-      <div className="p-2 font-semibold text-3xl">5. Vacuum Generator</div>
+      <div className="ml-4 p-2 font-semibold text-3xl">5. Vacuum Generator</div>
       <div className=" block text-center items-start">
         <Image
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
           src={`/5. Vacuum Generator.jpg`}
-          height={450}
-          width={450}
+          height={430}
+          width={430}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">Thread Sizes:</p>
           <span className=" text-l">G1/4 and G3/8</span>
@@ -289,7 +290,7 @@ const AirCylinders = () => {
       <div className=" flex  ms-6 justify-start text-neutral-600 font-semibold text-4xl">
         Ball Valves
       </div>
-      <div className="p-2 font-semibold text-3xl">
+      <div className="ml-4 p-2 font-semibold text-3xl">
         1. Heavy Duty Brass Ball Valves
       </div>
       <div className=" block text-center items-start">
@@ -297,10 +298,10 @@ const AirCylinders = () => {
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
           src={`/1. Heavy Duty Brass Ball Valves.jpg`}
-          height={450}
-          width={450}
+          height={430}
+          width={430}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">
             {" "}
@@ -337,7 +338,7 @@ const AirCylinders = () => {
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
-      <div className="p-2 font-semibold text-3xl">
+      <div className="ml-4 p-2 font-semibold text-3xl">
         2. T Handle Brass Ball Valves
       </div>
       <div className=" block text-center items-start">
@@ -345,10 +346,10 @@ const AirCylinders = () => {
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
           src={`/2. T Handle Brass Ball Valves.jpg`}
-          height={450}
-          width={450}
+          height={430}
+          width={430}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">
             {" "}
@@ -385,16 +386,16 @@ const AirCylinders = () => {
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
-      <div className="p-2 font-semibold text-3xl">3. Mini Brass Ball Valves</div>
+      <div className="ml-4 p-2 font-semibold text-3xl">3. Mini Brass Ball Valves</div>
       <div className=" block text-center items-start">
         <Image
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
           src={`/3. Mini Brass Ball Valves.jpg`}
-          height={450}
-          width={450}
+          height={430}
+          width={430}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">
             {" "}
@@ -431,7 +432,7 @@ const AirCylinders = () => {
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
-      <div className="p-2 font-semibold text-3xl">
+      <div className="ml-4 p-2 font-semibold text-3xl">
         4. Male / Female Mini Brass Ball Valves
       </div>
       <div className=" block text-center items-start">
@@ -439,10 +440,10 @@ const AirCylinders = () => {
           alt=""
           className=" float-left  w1/2 me-4 ms-4"
           src={`/4. Male Female Mini Brass Ball Valves.jpg`}
-          height={450}
-          width={450}
+          height={430}
+          width={430}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="  font-semibold text-xl mt-2 transform skew-x-12">
             {" "}

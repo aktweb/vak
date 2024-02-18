@@ -7,7 +7,7 @@ const AirCylinders = () => {
         Pneumatic Series Tubes
       </div>
 
-      <div className="  p-2 font-semibold text-3xl">1. Polyurethane Tubes</div>
+      <div className="  p-2 font-semibold text-3xl ml-4">1. Polyurethane Tubes</div>
       <div className=" block text-center items-start">
         <Image
           alt=""
@@ -16,7 +16,7 @@ const AirCylinders = () => {
           height={450}
           width={450}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12"> Efficiency:</p>
           <span className=" text-l">
@@ -52,7 +52,7 @@ const AirCylinders = () => {
 
       {/* ---------- */}
 
-      <div className="  p-2 font-semibold text-3xl">2. Nylon Tubes</div>
+      <div className="  p-2 font-semibold text-3xl ml-4">2. Nylon Tubes</div>
       <div className=" block text-center items-start">
         <Image
           alt=""
@@ -61,7 +61,7 @@ const AirCylinders = () => {
           height={450}
           width={450}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12"> Applications:</p>
           <span className=" text-l">
@@ -96,7 +96,7 @@ const AirCylinders = () => {
       </div>
       {/* ---------- */}
 
-      <div className="  p-2 font-semibold text-3xl">
+      <div className="  p-2 font-semibold text-3xl ml-4">
         3. Anti-Spatter Polyurethane Tubes
       </div>
       <div className=" block text-center items-start">
@@ -107,7 +107,7 @@ const AirCylinders = () => {
           height={450}
           width={450}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">Efficiency:</p>
           <span className=" text-l">
@@ -136,7 +136,7 @@ const AirCylinders = () => {
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
-      <div className="  p-2 font-semibold text-3xl">
+      <div className="  p-2 font-semibold text-3xl ml-4">
         4. Polyurethane Coiled Hoses
       </div>
       <div className=" block text-center items-start">
@@ -147,7 +147,7 @@ const AirCylinders = () => {
           height={450}
           width={450}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">Compact Size:</p>
           <span className=" text-l">
@@ -185,7 +185,7 @@ const AirCylinders = () => {
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
-      <div className="  p-2 font-semibold text-3xl">5. Nylon Coiled Hoses</div>
+      <div className="  p-2 font-semibold text-3xl ml-4">5. Nylon Coiled Hoses</div>
       <div className=" block text-center items-start">
         <Image
           alt=""
@@ -194,7 +194,7 @@ const AirCylinders = () => {
           height={450}
           width={450}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">Compact Size:</p>
           <span className=" text-l">

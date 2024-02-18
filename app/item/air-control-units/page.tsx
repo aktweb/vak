@@ -18,7 +18,7 @@ const AirControlUnits = () => {
         </span>
       </div>
 
-      <div className=" p-2 font-semibold text-3xl">
+      <div className=" p-2 font-semibold text-3xl ml-4">
         1. New Generation Air Control Units (FRLs) - O Series
       </div>
       <div className=" block text-center items-start">
@@ -29,7 +29,7 @@ const AirControlUnits = () => {
           height={380}
           width={380}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500 ">Features</p>
           <p className="   font-semibold text-xl mt-2 transform skew-x-12 transform skew-x-12"> Thread Sizes:</p>
           <span className=" text-l">
@@ -62,7 +62,7 @@ const AirControlUnits = () => {
 
       {/* ---------- */}
 
-      <div className=" p-2 font-semibold text-3xl">2. Filter Regulator / OFR</div>
+      <div className=" p-2 font-semibold text-3xl ml-4">2. Filter Regulator / OFR</div>
       <div className=" block text-center items-start">
         {" "}
         <Image
@@ -72,7 +72,7 @@ const AirControlUnits = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           {" "}
           <span className=" text-l">
             Filter and pressure regulator combine a single unit and cleans the
@@ -99,7 +99,7 @@ const AirControlUnits = () => {
       </div>
       {/* ---------- */}
 
-      <div className=" p-2 font-semibold text-3xl">3. Regulator / OR</div>
+      <div className=" p-2 font-semibold text-3xl ml-4">3. Regulator / OR</div>
       <div className=" block text-center items-start">
         <Image
           alt=""
@@ -108,7 +108,7 @@ const AirControlUnits = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="  text-l mt-2">
             The OR maintain inputting constant operating pressure despite
             fluctuation in line pressure and the amount of air consumed.
@@ -133,7 +133,7 @@ const AirControlUnits = () => {
 
       {/* ---------- */}
 
-      <div className=" p-2 font-semibold text-3xl">4. Filter / OF</div>
+      <div className=" p-2 font-semibold text-3xl ml-4">4. Filter / OF</div>
       <div className=" block text-center items-start">
         <Image
           alt=""
@@ -142,7 +142,7 @@ const AirControlUnits = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <span className=" text-l">
             The OF water separator cleans the compressed air of fluid oil,
             condensation and dirt particles for special application, the
@@ -167,7 +167,7 @@ const AirControlUnits = () => {
       </div>
       {/* ---------- */}
       <div>
-        <div className=" p-2 font-semibold text-3xl">5. Lubricator / OL</div>
+        <div className=" p-2 font-semibold text-3xl ml-4">5. Lubricator / OL</div>
         <div className=" block text-center items-start">
           <Image
             alt=""
@@ -176,7 +176,7 @@ const AirControlUnits = () => {
             height={350}
             width={350}
           ></Image>
-          <div className=" text-justify">
+          <div className=" text-justify ml-3">
             <span className=" text-l">
               The direct constant-density lubricator should be added regulated
               oil quality to the compressed air . <br />

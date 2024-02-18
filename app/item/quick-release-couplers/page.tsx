@@ -7,7 +7,7 @@ const AirCylinders = () => {
         Quick Release Couplers (QRCs)
       </div>
 
-      <div className="  p-2 font-semibold text-4xl">
+      <div className="  p-2 font-semibold text-4xl ml-4">
         1. Pneumatic Quick Release Couplers
       </div>
       <div className=" block text-center items-start">
@@ -18,7 +18,7 @@ const AirCylinders = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500  ">Features</p>
           <p className=" font-semibold text-xl mt-2 "> Uni-Directional:</p>
           <span className=" text-l">
@@ -50,7 +50,7 @@ const AirCylinders = () => {
 
       {/* ---------- */}
 
-      <div className="  p-2 font-semibold text-4xl">
+      <div className="  p-2 font-semibold text-4xl ml-4">
         2. Medium Pressure Quick Release Couplers
       </div>
       <div className=" block text-center items-start">
@@ -61,7 +61,7 @@ const AirCylinders = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500  ">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">
             {" "}
@@ -96,7 +96,7 @@ const AirCylinders = () => {
       </div>
       {/* ---------- */}
 
-      <div className="  p-2 font-semibold text-4xl">
+      <div className="  p-2 font-semibold text-4xl ml-4">
         3. Hydraulic Quick Release Couplers - Up to 210 Kg/cm²
       </div>
       <div className=" block text-center items-start">
@@ -107,7 +107,7 @@ const AirCylinders = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500  ">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">
             {" "}
@@ -140,7 +140,7 @@ const AirCylinders = () => {
         <hr className=" w-[80%] font-semibold" />
       </div>
       {/* ---------- */}
-      <div className="  p-2 font-semibold text-4xl">
+      <div className="  p-2 font-semibold text-4xl ml-4">
         4. Mould Type Quick Release Couplers
       </div>
       <div className=" block text-center items-start">
@@ -151,7 +151,7 @@ const AirCylinders = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500  ">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12"> Plugs & Sockets:</p>
           <span className=" text-l">
@@ -181,7 +181,7 @@ const AirCylinders = () => {
         <hr className=" w-[80%] font-semibold" />
       </div>
       {/* ---------- */}
-      <div className="  p-2 font-semibold text-4xl">
+      <div className="  p-2 font-semibold text-4xl ml-4">
         5. Camlock Type Quick Release Couplers
       </div>
       <div className=" block text-center items-start">
@@ -192,7 +192,7 @@ const AirCylinders = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className="font-semibold text-2xl text-gray-500  ">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12"> Applications:</p>
           <span className=" text-l">

@@ -7,7 +7,7 @@ const AirCylinders = () => {
         Pneumatic Series Fittings
       </div>
 
-      <div className="  p-2 font-semibold text-3xl">1. One Touch Fittings</div>
+      <div className="  p-2 font-semibold text-3xl ml-4">1. One Touch Fittings</div>
       <div className=" block text-center items-start">
         <Image
           alt=""
@@ -16,7 +16,7 @@ const AirCylinders = () => {
           height={370}
           width={370}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className=" font-semibold text-2xl text-gray-500 ">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">Tube Sizes:</p>
           <span className=" text-l">
@@ -46,7 +46,7 @@ const AirCylinders = () => {
 
       {/* ---------- */}
 
-      <div className="  p-2 font-semibold text-3xl">
+      <div className="  p-2 font-semibold text-3xl ml-4">
         2. Push On Two Touch Fittings
       </div>
       <div className=" block text-center items-start">
@@ -57,7 +57,7 @@ const AirCylinders = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className=" font-semibold text-2xl text-gray-500 ">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12">  Tube Sizes:</p>
           <span className=" text-l">
@@ -82,7 +82,7 @@ const AirCylinders = () => {
       </div>
       {/* ---------- */}
 
-      <div className="  p-2 font-semibold text-3xl">3. Brass Fittings</div>
+      <div className="  p-2 font-semibold text-3xl ml-4">3. Brass Fittings</div>
       <div className=" block text-center items-start">
         <Image
           alt=""
@@ -91,7 +91,7 @@ const AirCylinders = () => {
           height={350}
           width={350}
         ></Image>
-        <div className=" text-justify">
+        <div className=" text-justify ml-3">
           <p className=" font-semibold text-2xl text-gray-500 ">Features</p>
           <p className=" font-semibold text-xl mt-2 transform skew-x-12"> Thread Sizes:</p>
           <span className=" text-l">
