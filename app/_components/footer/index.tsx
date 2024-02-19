@@ -22,6 +22,9 @@ export const Footer = () => {
           <br />
           No1 ,9th Cross Ganesh Temple Magadi Road Rajajinagar Bangalore 560023
           India
+          <br />
+          Email:akpneumatics98@gmail.com <br />
+          Mobile :+91-8951101437; +91-7019311012
         </p>
       </div>
     </div>
