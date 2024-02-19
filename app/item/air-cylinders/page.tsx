@@ -318,7 +318,7 @@ const AirCylinders = () => {
       </div>
       {/* ---------- */}
       <div className="ml-4 p-2 font-semibold text-3xl">
-        5. Cylinders Mountings
+        7. Cylinders Mountings
       </div>
       <div className=" block text-center items-start">
         <Image
