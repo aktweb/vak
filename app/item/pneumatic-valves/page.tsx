@@ -480,6 +480,44 @@ const AirCylinders = () => {
       <div className=" flex justify-center">
         <hr className=" w-[80%] font-semibold" />
       </div>
+      <div className="ml-4 p-2 font-semibold text-3xl">
+        5. Cylinders Mounting's
+      </div>
+      <div className=" block text-center items-start">
+        <Image
+          alt=""
+          className=" float-left  w1/2 me-4 ms-4"
+          src={`/Accessories mounting.jpg`}
+          height={430}
+          width={430}
+        ></Image>
+        <div className=" text-justify ml-3">
+          <p className="font-semibold text-2xl text-gray-500 "> Applications</p>
+          <span className=" text-l">
+          Pneumatic air cylinder accessories are the supporting parts
+          </span>
+          <p>
+          for air cylinder to realize the fixture mounting and functional application
+          </p>
+          <p>joint with air cylinder and work pieces.</p>
+          </div>
+          </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <div className=" flex justify-center">
+        <hr className=" w-[80%] font-semibold" />
+      </div>
     </div>
   );
 };
