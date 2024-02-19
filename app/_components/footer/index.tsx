@@ -18,11 +18,9 @@ export const Footer = () => {
             " w-2/3 lg:text-[#3c3b41] lg:font-sans lg:w-1/3 lg:mt-3 lg:font-semibold lg:text-sm "
           )}
         >
-          <div className="text-2xl ">Address Details</div>
-          <div className="ml-2">No1 ,9th Cross Ganesh Temple Magadi Road 
-          Rajajinagar,Bangalore-560023, 
-          India
-          </div> 
+          Address Details <br /> No1 ,9th Cross Ganesh Temple Magadi Road 
+Rajajinagar, Bangalore-560023, 
+India
         </p>
       </div>
     </div>
