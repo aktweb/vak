@@ -300,7 +300,7 @@ const index = () => {
           <CarouselItem className="pl-1 basis-1/2 lg:basis-1/5">
             <div className="p-1">
               <img
-                src="bharatbenz-logo.svg"
+                src="BharatBenzLogo.svg"
                 className="h-[100px] w-[200px]"
                 alt=""
               />
@@ -309,7 +309,30 @@ const index = () => {
           <CarouselItem className="pl-1 basis-1/2 lg:basis-1/5">
             <div className="p-1">
               <img
-                src="xcmgchile-logos-idqPIQI2kL (1).svg"
+                src="Royal_Enfield_logo_new.svg"
+                className="h-[100px] w-[200px]"
+                alt=""
+              />
+            </div>
+          </CarouselItem>
+          <CarouselItem className="pl-1 basis-1/2 lg:basis-1/5">
+            <div className="p-1">
+              <img
+                src="Volvo_logo.svg"
+                className="h-[100px] w-[200px]"
+                alt=""
+              />
+            </div>
+          </CarouselItem>
+          <CarouselItem className="pl-1 basis-1/2 lg:basis-1/5">
+            <div className="p-1">
+              <img src="XCMG_logo.svg" className="h-[100px] w-[200px]" alt="" />
+            </div>
+          </CarouselItem>
+          <CarouselItem className="pl-1 basis-1/2 lg:basis-1/5">
+            <div className="p-1">
+              <img
+                src="SCANIA_Logo_vector.svg"
                 className="h-[100px] w-[200px]"
                 alt=""
               />

@@ -69,7 +69,7 @@ export function GalleryComponent({
               <div className="p-1">
                 <Card
                   className={cn(
-                    " hover:cursor-pointer hover:backdrop-blur-3xl lg:h-80 lg:w-80"
+                    " hover:cursor-pointer hover:backdrop-blur-3xl w-50 h-60 lg:h-80 lg:w-80"
                   )}
                   onClick={() => handleClick(product)}
                 >
@@ -85,7 +85,7 @@ export function GalleryComponent({
                         width={300}
                         src={product.image}
                       ></Image>
-                      <div className="flex justify-center items-bas">
+                      <div className="flex justify-center max-h-32 items-bas">
                         <span className={cn(" lg:text-center lg:text-base")}>
                           {product.title}
                           {/* ({index}) */}
