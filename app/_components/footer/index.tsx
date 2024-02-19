@@ -18,9 +18,9 @@ export const Footer = () => {
             " w-2/3 lg:text-[#3c3b41] lg:font-sans lg:w-1/3 lg:mt-3 lg:font-semibold lg:text-sm "
           )}
         >
-          Address Details <br /> No1 ,9th Cross Ganesh Temple Magadi Road 
-Rajajinagar, Bangalore-560023, 
-India
+          Address Details <br /> NO 2028/3 IST MAIN RPC LAYOUT VIJAYANAGAR, CLUB
+          ROAD , ABOVE LENSKART SHOWROOM, CLUB ROAD , ABOVE LENSKART SHOWROOM,
+          Bengaluru, Karnataka, 560040 India
         </p>
       </div>
     </div>
