@@ -18,9 +18,10 @@ export const Footer = () => {
             " w-2/3 lg:text-[#3c3b41] lg:font-sans lg:w-1/3 lg:mt-3 lg:font-semibold lg:text-sm "
           )}
         >
-          Address Details <br /> NO1 ,9th CROSS GANESH TEMPLE MAGADI ROAD 
-          RAJAJINAGAR BANGALORE 560023 
-          INDIA
+          Address:
+          <br />
+          No1 ,9th Cross Ganesh Temple Magadi Road Rajajinagar Bangalore 560023
+          India
         </p>
       </div>
     </div>
