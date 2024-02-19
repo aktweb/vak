@@ -82,11 +82,11 @@ const ProductDetailsPage = ({ product }: { product: ProductType | any }) => {
       </div>
       {/* <div className=" flex justify-center "> */}
       {/* <p className=" flex justify-center">{product.name}</p> */}
-      <ul className="m-4">
+      <ul className="m-4 lg:ps-24 lg:pe-24 ">
         {descriptionLines?.map((line: any, index: any) => (
           <li
             key={index}
-            className="  flex justify-center items-start mt-[10px]  "
+            className="  flex justify-center  items-start mt-[10px]  "
           >
             {line}
           </li>

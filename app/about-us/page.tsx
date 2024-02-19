@@ -1,8 +1,9 @@
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 const AboutUsPage = () => {
   return (
-    <div className=" min-h-screen flex justify-center ">
+    <div className=" min-h-screen  justify-center ">
       <div className={cn(" m-2 lg:ms-52 lg:me-52")}>
         <p className="items-center mb-8">
           <b>VAK Pneumatic</b> is an ISO 9001:2008 certified company,
@@ -20,12 +21,15 @@ const AboutUsPage = () => {
           has well established marketing network in all over INDIA with
           residential engineers and branch office in major cities.
         </p>
-        {/* <style jsx global>
-        {`
-        background-image: url("../../../public/Pasted image 6.png");
-        `}
-      </style> */}
-      </div>{" "}
+      </div>
+      <div className=" flex justify-center w-full h-full">
+        <Image
+          alt="Certificate"
+          height={500}
+          width={400}
+          src="/certificate (1).jpg"
+        />
+      </div>
     </div>
   );
 };

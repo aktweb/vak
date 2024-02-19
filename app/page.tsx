@@ -8,7 +8,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          href="/icon?<generated>"
+          type="image/png"
+          sizes="32x32"
+        />
       </Head>
       <AboutUs />
       <div className={cn("  p-4 lg:ms-48 lg:me-48")}>
